@@ -1,3 +1,10 @@
+# Organização de arquivos
+1. A pasta **src/** conterá todos os **códigos** relacionados ao site
+2. A pasta **src/assets/** conterá os **arquivos estáticos**, como imagens, fontes e outras coisas
+3. A pasta **src/main/** conterá os **arquivos principais** da aplicação, tais como o roteamento e o componente principal App
+4. A pasta **src/template/** conterá todos os **componentes do site**, como menu, rodapé, banner, formulários e outros
+5. A pasta **src/pages/** conterá as **páginas do site**, como a home, contato, sobre, projetos e outras ...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
