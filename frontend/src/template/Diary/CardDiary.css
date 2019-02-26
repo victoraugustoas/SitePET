@@ -1,0 +1,22 @@
+#img-top-card-diary {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-diary {
+    border-radius: 10px;
+}
+
+.card-diary {
+    width: 25rem;
+}
+
+.card-diary a {
+    background-color: var(--color-2);
+    color: #fff;
+}
+
+.card-diary a:hover {
+    background-color: var(--color-3);
+    color: #fff;
+}
