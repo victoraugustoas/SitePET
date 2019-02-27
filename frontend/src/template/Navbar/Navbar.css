@@ -1,0 +1,19 @@
+.cabecalho {
+    background-color: var(--color-1);
+    border-bottom: #49deb2 solid 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* usado para se sobrepor aos demais componentes */
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.icon-menu {
+    color: #fff;
+}

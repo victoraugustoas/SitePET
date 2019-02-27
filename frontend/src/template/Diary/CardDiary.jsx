@@ -12,7 +12,7 @@ export default props => {
             </div>
 
             <p className="card-text">{props.description}</p>
-            <a href="#" className="btn">{props.textButton}</a>
+            <a href="/" className="btn">{props.textButton}</a>
         </div>
     </div>
 

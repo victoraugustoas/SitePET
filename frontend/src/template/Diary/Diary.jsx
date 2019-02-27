@@ -16,17 +16,17 @@ export default props => (
 
         <div className="row mt-2 pb-3">
             <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                <CardDiary date="02/05" title="PET OBI" urlImg="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
+                <CardDiary date="02/05" title="PET OBI" urlImg="https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"
                     description={description}
                     textButton="Ver Mais"/>
             </div>
             <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                <CardDiary date="02/05" title="PET OBI" urlImg="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
+                <CardDiary date="02/05" title="PET OBI" urlImg="https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"
                     description={description}
                     textButton="Ver Mais"/>
             </div>
             <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                <CardDiary date="02/05" title="PET OBI" urlImg="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
+                <CardDiary date="02/05" title="PET OBI" urlImg="https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"
                     description={description}
                     textButton="Ver Mais"/>
             </div>
