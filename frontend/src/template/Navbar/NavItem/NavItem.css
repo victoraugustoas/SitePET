@@ -1,0 +1,19 @@
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(27, 92, 172);
+    border-radius: 5px;
+}
+
+.menu div {
+    margin-right: 15px;
+}
+
+.menu li a {
+    padding-right: 5px;
+}

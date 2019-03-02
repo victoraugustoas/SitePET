@@ -1,0 +1,17 @@
+/* 
+Fontes:
+    Prompt: https://fonts.google.com/?query=Prompt&selection.family=Prompt
+*/
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+:root {
+    --color-1: #4E9FFF;
+    --color-2: #FF2E4C;
+    --color-3: #7F1726;
+
+    --height-menu: 50px;
+}

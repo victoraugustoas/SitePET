@@ -1,0 +1,21 @@
+.card-diary {
+    min-height: 70px;
+    background-color: var(--color-2);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+a.link-diary{
+    text-decoration: none;
+}
+
+.card-diary h5 {
+    margin: 0;
+}
