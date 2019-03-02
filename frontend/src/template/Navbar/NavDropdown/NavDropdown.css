@@ -16,3 +16,7 @@
 .menu .btn:focus{
     background-color: rgb(27, 92, 172);
 }
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}

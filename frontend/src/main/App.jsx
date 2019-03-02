@@ -8,8 +8,6 @@ import './App.css'
 import {HashRouter} from 'react-router-dom'
 import Routes from '../main/Routes'
 
-
-
 export default props => {
     let app = <HashRouter>
         <Routes />

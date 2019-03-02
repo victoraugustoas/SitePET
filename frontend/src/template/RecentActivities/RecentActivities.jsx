@@ -12,25 +12,23 @@ export default props => (
                 <h3 className="ml-3">Atividades Recentes</h3>
             </div>
 
-            <div className="row mt-2 pb-3">
-                <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                    <CardRecentActivities title="Computação Desplugada"
-                        description={description}
-                        urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
-                        textButton="Ver Mais"/>
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                    <CardRecentActivities title="Computação Desplugada"
-                        description={description}
-                        urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
-                        textButton="Ver Mais"/>
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-                    <CardRecentActivities title="Computação Desplugada"
-                        description={description}
-                        urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
-                        textButton="Ver Mais"/>
-                </div>
+            <div className="row pb-3">
+                <CardRecentActivities title="Computação Desplugada"
+                    description={description}
+                    urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                    textButton="Ver Mais" />
+                <CardRecentActivities title="Computação Desplugada"
+                    description={description}
+                    urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                    textButton="Ver Mais" />
+                <CardRecentActivities title="Computação Desplugada"
+                    description={description}
+                    urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                    textButton="Ver Mais" />
+                <CardRecentActivities title="Computação Desplugada"
+                    description={description}
+                    urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                    textButton="Ver Mais" />
             </div>
         </div>
     </section>

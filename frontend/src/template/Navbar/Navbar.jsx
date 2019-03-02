@@ -36,8 +36,8 @@ export default props => (
                         <NavItemDropdown url="/" label="Minicurso de C" />
                     </NavDropdown>
 
-                    <NavItem url="/" label="Petianos" />
-                    <NavItem url="/" label="Sobre" />
+                    <NavItem url="/petianos" label="Petianos" />
+                    <NavItem url="/about" label="Sobre" />
                 </ul>
             </div>
         </nav>

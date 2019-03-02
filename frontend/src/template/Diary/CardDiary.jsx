@@ -1,20 +1,20 @@
 import React from 'react'
 import './CardDiary.css'
 
-export default props => {
-    let card = <div className="card card-diary mb-3">
-        <img src={props.urlImg} id="img-top-card-diary" className="card-img-top img-fluid" alt="..." />
-        <div className="card-body">
-
-            <div className="header-diary d-flex justify-content-between">
-                <h5 className="card-title">{props.title}</h5>
-                <h6 className="card-date">Data: {props.date}</h6>
+export const Card = (props) => {
+    return (
+        <a href={props.url} className={`link-diary col-12 col-sm-6 mt-2`} >
+            <div className="card-diary">
+                <h5 className="mb-2">{props.date}</h5>
+                <h5 className="mb-2">{props.title}</h5>
             </div>
+        </a>
+    )
+}
 
-            <p className="card-text">{props.description}</p>
-            <a href="/" className="btn">{props.textButton}</a>
-        </div>
+export default (props) => {
+    let card = <div className="row pb-3 justify-content-center">
+        {props.children}
     </div>
-
     return card
 }
