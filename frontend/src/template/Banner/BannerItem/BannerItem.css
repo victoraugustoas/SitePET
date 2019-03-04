@@ -1,17 +1,20 @@
 .img {
-    height: calc(100vh - var(--height-menu));
+	height: calc(100vh - var(--height-menu));
 }
 
 .carousel-caption{
 	position: absolute;
-	font-size: 10pt;
-	color: var(--color-2);
+	color: #fff;
 	font-family: 'Prompt', sans-serif;
-}
-.carousel-caption:hover{
+
+	width: 100%;
 	background-color: rgb(0,0,0,.5);
-	color: #ffffff;
+	right: 0;
+	left: 0;
+}
+
+.carousel-caption:hover{
 	transition: 1s;
-	font-size: 20pt;
+	font-size: 2em;
 	font-style: italic;
 }

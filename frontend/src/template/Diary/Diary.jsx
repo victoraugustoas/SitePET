@@ -6,10 +6,10 @@ import CardDiary, { Card } from './CardDiary'
 let url = "https://calendar.google.com/calendar/b/2?cid=cGV0Y29tcHV0YWNhb0BpY29tcC51ZmFtLmVkdS5icg"
 
 export default props => (
-    <section className="diary container-fluid">
+    <section className="diary container-fluid p-5">
 
         <div className="row pt-3">
-            <h4 className="ml-3">
+            <h4 className="ml-3 pb-4">
                 Agenda do PET Computação
             </h4>
         </div>

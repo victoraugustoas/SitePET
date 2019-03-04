@@ -1,6 +1,7 @@
 footer {
     padding-top: 3%;
     background-color: var(--color-1);
+    color: #fff;
 }
 .container{
     width: 100%;
@@ -23,7 +24,18 @@ footer i{
 .head {
     padding-left: 100px;
 }
+
 footer a, a:hover{
     text-decoration: none;
-    color: black;
+    color: #fff;
+}
+
+/* ============ Footer Alternative ============ */
+
+.logo{
+    width: 200px;
+}
+
+.logo img {
+    height: 100%;
 }
