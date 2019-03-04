@@ -1,7 +1,10 @@
 .diary {
     background-color: var(--color-1);
+    padding: 5%;
+    
 }
 
-.diary h3 {
+.diary h4 {
     color: #fff;
+    padding-bottom: 2%;
 }

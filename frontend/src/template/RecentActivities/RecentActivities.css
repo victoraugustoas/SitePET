@@ -1,7 +1,10 @@
 .recent-activities {
     background-color: var(--color-2);
+    padding: 5%;
 }
 
-.recent-activities h3 {
+.recent-activities h4 {
     color: #fff;
+    padding: 2%;
 }
+

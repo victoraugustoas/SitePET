@@ -9,9 +9,9 @@ export default props => (
     <section className="diary container-fluid">
 
         <div className="row pt-3">
-            <h3 className="ml-3">
+            <h4 className="ml-3">
                 Agenda do PET Computação
-            </h3>
+            </h4>
         </div>
 
         <CardDiary>
