@@ -1,6 +1,6 @@
 .cabecalho {
-    background-color: var(--color-1);
-    border-bottom: #49deb2 solid 5px;
+    background-color: var(--bg-menu);
+    border-bottom: var(--bg-border-menu) solid 5px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -16,5 +16,5 @@
 }
 
 .icon-menu {
-    color: #fff;
+    color: var(--color-icon-menu);
 }

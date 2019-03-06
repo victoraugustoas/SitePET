@@ -29,3 +29,15 @@ export default props => (
         </div>
     </section>
 )
+
+export const BannerStatic = props => (
+    <section className="banner container-fluid">
+        <div className="d-flex align-items-center justify-content-center">
+            <img className="img-banner" src={props.urlImg} alt={props.altImg} />
+        </div>
+        <div className="text-banner d-flex flex-column align-items-center justify-content-center">
+            <h1>{props.title}</h1>
+            <p>{props.subtitle}</p>
+        </div>
+    </section>
+)

@@ -9,7 +9,7 @@ export default props => (
         <div className="carousel-caption">
             <h1><strong>{props.title}</strong></h1>
             <p>{props.description}</p>
-            <p><button type="button" className="btn btn-primary btn-lg">{props.textButton}</button></p>
+            <p><button type="button" className="btn btn-lg">{props.textButton}</button></p>
         </div>
     </div>
 )

@@ -1,12 +1,12 @@
 .menu li a {
-    color: #fff;
+    color: var(--color-text-btn-menu);
     text-decoration: none;
 }
 
 .menu li:hover {
-    color: #fff;
+    color: var(--color-text-btn-menu);
     text-decoration: none;
-    background-color: rgb(27, 92, 172);
+    background-color: var(--bg-btn-menu-hover);
     border-radius: 5px;
 }
 

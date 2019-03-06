@@ -13,5 +13,49 @@ body {
     --color-2: #FF2E4C;
     --color-3: #7F1726;
 
-    --height-menu: 50px;
+    /* menu colors */
+    --bg-menu: #4E9FFF;
+    --bg-border-menu: #49deb2;
+    --bg-btn-menu-hover: #1b5cac;
+    --bg-dropdown-menu: #000;
+    --bg-btn-menu: #4E9FFF;
+    
+    --color-icon-menu: #fff;
+    --color-text-btn-menu: #fff;
+
+    /* slide colors */
+    --bg-caption-banner: #00000080;
+    --bg-btn-banner: #4E9FFF;
+    --bg-btn-banner-hover: #1b5cac;
+
+    --color-text-caption-banner: #fff;
+    --color-text-btn-banner: #fff;
+
+    /* banner colors */
+    --bg-text-banner: #00000080;
+    --color-text-banner: #fff;
+
+    /* agenda colors */
+    --bg-diary: #4E9FFF;
+    --bg-card-diary: #FF2E4C;
+    --bg-card-diary-hover: #7F1726;
+
+    --color-text-card-diary: #fff;
+    --color-text-title-diary: #fff;
+
+    /* recent activities colors */
+    --bg-recent-activities: #FF2E4C;
+    --bg-btn-card-recent-activities: #FF2E4C;
+    --bg-btn-card-recent-activities-hover: #7F1726;
+
+    --color-text-btn-recent-activities: #fff;
+    --color-text-title-recent-activities: #fff;
+
+    /* footer colors */
+    --bg-footer: #4E9FFF;
+
+    --color-text-footer: #fff;
+
+    /* dimensions */
+    --height-menu: 61px;
 }

@@ -1,7 +1,6 @@
 footer {
-    padding-top: 3%;
-    background-color: var(--color-1);
-    color: #fff;
+    background-color: var(--bg-footer);
+    color: var(--color-text-footer);
 }
 .container{
     width: 100%;

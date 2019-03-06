@@ -10,7 +10,7 @@ export default props => (
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <h3>Onde ficamos?</h3>
+                    <h4>Onde ficamos?</h4>
                     <p>No 2° andar do bloco CPD, após o ICOMP (Instituto de Computação) Se quiser fazer uma visita, nos encontre na última sala do bloco do CPD.</p>
                 </div>
                 <div className="col">
@@ -20,7 +20,7 @@ export default props => (
         <div className="container">
             <div className="row">
                 <div className="col-9 ">
-                    <h3>Fale com a gente!</h3>
+                    <h4>Fale com a gente!</h4>
                     <p>Nossas redes sociais</p>
                 </div>
 
@@ -56,8 +56,8 @@ export default props => (
 export const FooterAlternative = props => (
     <footer className="footer container-fluid py-5">
         <div className="row">
-            
-            <div className="col-12 col-sm-6 col-md-4 mb-4">
+
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
                 <div className="logo">
                     <Link to="/">
                         <img src={logo} alt={'logo'} />
@@ -65,24 +65,36 @@ export const FooterAlternative = props => (
                 </div>
             </div>
 
-            <div className="col-12 col-sm-6 col-md-4 mb-4">
-                <h3>Onde ficamos?</h3>
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
+                <h4>Onde ficamos?</h4>
                 <p>No 2° andar do bloco CPD, após o ICOMP (Instituto de Computação) Se quiser fazer uma visita, nos encontre na última sala do bloco do CPD.</p>
             </div>
 
-            <div className="col-12 col-sm-6 col-md-4">
-                <h3>Fale com a gente!</h3>
+            <div className="col-12 col-sm-6 col-md-3 mb-4">
+                <h4>Links úteis</h4>
+                <ul>
+                    <li>
+                        <a rel="noopener noreferrer" target="_blank" href="http://icomp.ufam.edu.br/site/">ICOMP</a>
+                    </li>
+                    <li>
+                        <a rel="noopener noreferrer" target="_blank" href="https://ufam.edu.br/">UFAM</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div className="col-12 col-sm-6 col-md-3">
+                <h4>Fale com a gente!</h4>
                 <p>Nossas redes sociais</p>
 
-                <a href="https://www.facebook.com/petcomputacaoufam/" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/" className="pr-4">
                     <i className="fab fa-facebook"></i>
                 </a>
 
-                <a href="/" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4">
                     <i className="fab fa-whatsapp"></i>
                 </a>
 
-                <a href="/" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4">
                     <i className="fab fa-instagram"></i>
                 </a>
             </div>
