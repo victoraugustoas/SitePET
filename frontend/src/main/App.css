@@ -24,7 +24,7 @@ body {
 
     /* slide colors */
     --bg-caption-banner: #00000080;
-    --bg-btn-banner: #4E9FFF;
+    --bg-btn-banner: #ff8820;
     --bg-btn-banner-hover: #1b5cac;
 
     --color-text-caption-banner: #fff;
@@ -34,21 +34,24 @@ body {
     --bg-text-banner: #00000080;
     --color-text-banner: #fff;
 
-    /* agenda colors */
+    /* diary colors */
     --bg-diary: #4E9FFF;
-    --bg-card-diary: #FF2E4C;
+    --bg-card-diary: #ff8820;
     --bg-card-diary-hover: #7F1726;
 
     --color-text-card-diary: #fff;
+    --color-text-card-diary-hover: #fff;
     --color-text-title-diary: #fff;
 
     /* recent activities colors */
     --bg-recent-activities: #FF2E4C;
-    --bg-btn-card-recent-activities: #FF2E4C;
+    --bg-card-recent-activities: #4E9FFF;
+    --bg-btn-card-recent-activities: #ff8820;
     --bg-btn-card-recent-activities-hover: #7F1726;
 
+    --color-text-title-recent-activities: #0550ac;
     --color-text-btn-recent-activities: #fff;
-    --color-text-title-recent-activities: #fff;
+    --color-text-card-recent-activities: #fff;
 
     /* footer colors */
     --bg-footer: #4E9FFF;

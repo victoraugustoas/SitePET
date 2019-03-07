@@ -3,6 +3,6 @@
 }
 
 .recent-activities h4 {
-    color: black;
+    color: var(--color-text-title-recent-activities);
 }
 

@@ -1,10 +1,9 @@
 .card-diary {
     min-height: 50px;
-    background-color: var(--bg-border-menu);
+    background-color: var(--bg-card-diary);
     border-radius: 10px;
     width: 100%;
-   /* color: var(--color-text-card-diary);*/
-   color: black;
+    color: var(--color-text-card-diary);
 
     display: flex;
     flex-wrap: wrap;
@@ -23,5 +22,5 @@ a.link-diary{
 
 .diary .btn:hover{
     background-color: var(--bg-card-diary-hover);
-    color: var(--color-text-card-diary);
+    color: var(--color-text-card-diary-hover);
 }
