@@ -26,15 +26,7 @@ footer i{
 
 footer a, a:hover{
     text-decoration: none;
-    color: #fff;
+    color: var(--color-text-footer);
 }
 
-/* ============ Footer Alternative ============ */
 
-.logo{
-    width: 200px;
-}
-
-.logo img {
-    height: 100%;
-}

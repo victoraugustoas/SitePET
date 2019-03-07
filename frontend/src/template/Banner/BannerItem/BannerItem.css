@@ -6,7 +6,7 @@
 	position: absolute;
 	color: var(--color-text-caption-banner);
 	font-family: 'Prompt', sans-serif;
-
+	font-style: italic;
 	width: 100%;
 	background-color: var(--bg-caption-banner);
 	right: 0;

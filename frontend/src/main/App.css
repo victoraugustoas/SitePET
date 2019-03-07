@@ -12,55 +12,67 @@ body {
     --color-1: #4E9FFF;
     --color-2: #FF2E4C;
     --color-3: #7F1726;
-
-    /* menu colors */
-    --bg-menu: #4E9FFF;
-    --bg-border-menu: #49deb2;
-    --bg-btn-menu-hover: #1b5cac;
+    
+    /*-----Part Menu----*/
+    /* navbar colors */
+     --bg-menu: #4E9FFF;
+     --bg-border-menu: #49deb2;
+     --color-icon-menu: #fff;
+     
+    /* navbarDropdown colors */
     --bg-dropdown-menu: #000;
     --bg-btn-menu: #4E9FFF;
-    --color-icon-menu: #fff;
     --color-text-btn-menu: #fff;
-
-    /* slide colors */
+    --bg-btn-menu-hover: #1b5cac;
+    /*-------*/
+    
+    /*-----Part Slide----*/
+    /* Banner colors */
+    --bg-text-banner: #00000080;
+    --bg-caption-banner: #00000080;
+    --color-text-banner: #fff;
+    
+    /* BannerItem colors */
+    --color-text-caption-banner: #fff;
     --bg-caption-banner: #00000080;
     --bg-btn-banner: #ff8820;
     --bg-btn-banner-hover: #1b5cac;
-
-    --color-text-caption-banner: #fff;
     --color-text-btn-banner: #fff;
-
-    /* banner colors */
-    --bg-text-banner: #00000080;
-    --color-text-banner: #fff;
-
-    /* diary colors */
+    --bg-card-diary-hover: #2e8b57;
+     /*-------*/
+    
+    /*------Part Agenda----*/
+    /* Diary colors */
     --bg-diary: #4E9FFF;
-    --bg-card-diary: #ff8820;
-    --bg-card-diary-hover: #7F1726;
-
-    --color-text-card-diary: #fff;
-    --color-text-card-diary-hover: #fff;
     --color-text-title-diary: #fff;
+    
+    /* CardDiary colors */
+    --color-text-card-diary: #fff;
+    --bg-card-diary: #ff8820;
+    --bg-card-diary-hover: #2e8b57;
+    --color-text-card-diary-hover: #fff;
+     /*-------*/
 
-    /* recent activities colors */
-    --bg-recent-activities: #FF2E4C;
-    --bg-card-recent-activities: #4E9FFF;
-    --bg-btn-card-recent-activities: #ff8820;
-    --bg-btn-card-recent-activities-hover: #7F1726;
-
+    /*---- Part Atividades recentes---*/
+    /* RecentsActivities colors */
     --color-text-title-recent-activities: #0550ac;
-    --color-text-btn-recent-activities: #fff;
-    --color-text-card-recent-activities: #fff;
 
-    /* footer colors */
+    /* CardRecentsActivities colors */
+    --bg-card-recent-activities: #4E9FFF;
+    --color-text-card-recent-activities: #fff;
+    --color-text-btn-recent-activities: #fff;
+    --bg-btn-card-recent-activities: #ff8820;
+    --bg-btn-card-recent-activities-hover: #2e8b57;
+     /*-------*/
+
+    /*-----Part Rodape-----*/
+     /* Footer colors */
     --bg-footer: #4E9FFF;
 
     --color-text-footer: #fff;
-
-    /* dimensions */
+     /*-------*/
+    
+    /*-----Part Dimensions-----*/
     --height-menu: 61px;
 
-    /* other colors*/
-    --bg-other-type:#3bb16f;
 }

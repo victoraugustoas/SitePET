@@ -5,53 +5,6 @@ import logo from '../../assets/imgs/pet_comp_logo.svg'
 
 import { Link } from 'react-router-dom'
 
-export default props => (
-    <footer>
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <h4>Onde ficamos?</h4>
-                    <p>No 2° andar do bloco CPD, após o ICOMP (Instituto de Computação) Se quiser fazer uma visita, nos encontre na última sala do bloco do CPD.</p>
-                </div>
-                <div className="col">
-                </div>
-            </div>
-        </div>
-        <div className="container">
-            <div className="row">
-                <div className="col-9 ">
-                    <h4>Fale com a gente!</h4>
-                    <p>Nossas redes sociais</p>
-                </div>
-
-                <div className="col">
-                    <i className="fab fa-facebook"></i>
-                    <h4><a href="https://www.facebook.com/petcomputacaoufam/">
-                        @petcomputacaoufam
-                        </a></h4>
-                </div>
-
-                <div className="col">
-                    <i className="fab fa-whatsapp"></i>
-                    <h4><a href="https://www.facebook.com/petcomputacaoufam/">
-                        @petcomputacaoufam
-                        </a></h4>
-                </div>
-
-                <div className="col">
-                    <i className="fab fa-instagram"></i>
-                    <h4><a href="https://www.facebook.com/petcomputacaoufam/">
-                        @petcomputacaoufam
-                        </a></h4>
-                </div>
-            </div>
-        </div>
-
-        <div className="RodapeDoPe">
-            <h5>Copyright &copy; 2019</h5>
-        </div>
-    </footer>
-)
 
 export const FooterAlternative = props => (
     <footer className="footer container-fluid py-5">
