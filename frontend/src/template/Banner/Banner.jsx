@@ -8,11 +8,11 @@ export default props => (
     <section className="slide">
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-                <BannerItem active urlImg={"https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"} altImg="Primeiro Slide"
+                <BannerItem active urlImg={"https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"}
                     title="Computação Desplugada" description="Bla Bla bla"
                     textButton="Ver Mais" />
 
-                <BannerItem urlImg={img1} altImg="Segundo Slide"
+                <BannerItem urlImg={img1}
                     title="Oficinas de Programação" description="Bla Bla bla"
                     textButton="Ver Mais" />
 
@@ -30,14 +30,22 @@ export default props => (
     </section>
 )
 
-export const BannerStatic = props => (
-    <section className="banner container-fluid">
-        <div className="d-flex align-items-center justify-content-center">
-            <img className="img-banner" src={props.urlImg} alt={props.altImg} />
-        </div>
-        <div className="text-banner d-flex flex-column align-items-center justify-content-center">
-            <h1>{props.title}</h1>
-            <p>{props.subtitle}</p>
-        </div>
-    </section>
-)
+export const BannerStatic = props => {
+    let styleInline = {
+        backgroundImage: `url('${props.urlImg}')`,
+        backgroundPosition: props.position ? props.position : ''
+    }
+
+    let bannerStatic = (
+        <section className="banner">
+            <div className="background-banner-static" style={styleInline}></div>
+
+            <div className="text-banner d-flex flex-column align-items-center justify-content-center">
+                <h1>{props.title}</h1>
+                <h4>{props.subtitle}</h4>
+            </div>
+        </section >
+    )
+
+    return bannerStatic
+}

@@ -8,10 +8,6 @@
     position: relative;
 }
 
-.img-banner {
-    height: calc(100vh - var(--height-menu));
-}
-
 .text-banner {
     background-color: var(--bg-text-banner);
 
@@ -22,14 +18,15 @@
     text-align: center;
 }
 
-.escuro {
-    height: calc(100vh - var(--height-menu));
-    width: 100%;
-    background-color: var(--bg-caption-banner);
-}
-
 /* =========== Centraliza o texto =========== */
 
-.text-banner h1, .text-banner p {
+.text-banner h1, .text-banner h4 {
     color: var(--color-text-banner);
+}
+
+.background-banner-static {
+    height: calc(100vh - var(--height-menu));
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }

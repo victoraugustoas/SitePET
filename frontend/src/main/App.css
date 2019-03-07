@@ -2,8 +2,8 @@
 Fontes:
     Prompt: https://fonts.google.com/?query=Prompt&selection.family=Prompt
 */
-@import url('https://fonts.googleapis.com/css?family=Prompt');
 
+@import url('https://fonts.googleapis.com/css?family=Prompt');
 body {
     font-family: 'Prompt', sans-serif;
 }
@@ -12,13 +12,13 @@ body {
     --color-1: #4E9FFF;
     --color-2: #FF2E4C;
     --color-3: #7F1726;
-    
+
     /*-----Part Menu----*/
     /* navbar colors */
-     --bg-menu: #4E9FFF;
-     --bg-border-menu: #49deb2;
-     --color-icon-menu: #fff;
-     
+    --bg-menu: #4E9FFF;
+    --bg-border-menu: #49deb2;
+    --color-icon-menu: #fff;
+    
     /* navbarDropdown colors */
     --bg-dropdown-menu: #000;
     --bg-btn-menu: #4E9FFF;
@@ -39,7 +39,7 @@ body {
     --bg-btn-banner-hover: #1b5cac;
     --color-text-btn-banner: #fff;
     --bg-card-diary-hover: #2e8b57;
-     /*-------*/
+    /*-------*/
     
     /*------Part Agenda----*/
     /* Diary colors */
@@ -51,28 +51,35 @@ body {
     --bg-card-diary: #ff8820;
     --bg-card-diary-hover: #2e8b57;
     --color-text-card-diary-hover: #fff;
-     /*-------*/
-
+    /*-------*/
+    
     /*---- Part Atividades recentes---*/
     /* RecentsActivities colors */
     --color-text-title-recent-activities: #0550ac;
-
+    
     /* CardRecentsActivities colors */
     --bg-card-recent-activities: #4E9FFF;
     --color-text-card-recent-activities: #fff;
     --color-text-btn-recent-activities: #fff;
     --bg-btn-card-recent-activities: #ff8820;
     --bg-btn-card-recent-activities-hover: #2e8b57;
-     /*-------*/
-
-    /*-----Part Rodape-----*/
-     /* Footer colors */
-    --bg-footer: #4E9FFF;
-
-    --color-text-footer: #fff;
-     /*-------*/
+    /*-------*/
     
+    /*-----Part Rodape-----*/
+    /* Footer colors */
+    --bg-footer: #4E9FFF;
+    --color-text-footer: #fff;
+    /*-------*/
+
+    /*-----Part Team-----*/
+    --color-title-team: #000;
+    
+    /* TeamItem Colors */
+    --color-title-name-team: #49deb2;
+    --color-text-email-team: #4E9FFF;
+    --color-text-email-team-hover: #49deb2;
+    /*-------*/
+
     /*-----Part Dimensions-----*/
     --height-menu: 61px;
-
 }

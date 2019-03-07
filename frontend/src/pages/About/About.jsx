@@ -1,14 +1,14 @@
 import React from 'react'
 
 import Navbar from '../../template/Navbar/Navbar'
-import { FooterAlternative } from '../../template/Footer/Footer'
+import Footer from '../../template/Footer/Footer'
 import { BannerStatic } from '../../template/Banner/Banner'
 
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImg="https://www.w3schools.com/css/img_5terre_wide.jpg"
-            altImg="Sobre" title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
+            title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
 
         <div className="container">
             <h2>Sobre o PET Computação</h2>
@@ -28,7 +28,7 @@ export default props => (
                 Suspendisse tincidunt nisl non placerat suscipit. Nam sollicitudin quam in nisl commodo congue. Aenean vitae efficitur nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam quis eleifend felis. Etiam convallis neque enim, a eleifend sem maximus nec. Sed mollis nulla sem, ut malesuada mi vestibulum sit amet. Suspendisse luctus et neque ut placerat. Ut egestas turpis mauris, eu accumsan velit facilisis quis. Sed in dolor nec orci blandit condimentum in at risus. Nulla ultrices odio at fringilla facilisis. Vestibulum sed augue dolor. Integer nunc velit, viverra nec lacinia et, dapibus a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at lectus luctus, cursus libero sed, elementum tellus.
             </p>
         </div>
-        <FooterAlternative />
+        <Footer />
 
     </React.Fragment >
 )

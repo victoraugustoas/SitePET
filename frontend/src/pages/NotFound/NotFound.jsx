@@ -6,7 +6,7 @@ import NavBar from '../../template/Navbar/Navbar'
 export default props => (
     <React.Fragment>
         <NavBar />
-        <div className="teste">
+        <div>
             <div className="background-construction"></div>
             <div className="not-found">
                 <h1>Página não encontrada</h1>

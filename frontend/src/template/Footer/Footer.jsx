@@ -6,7 +6,7 @@ import logo from '../../assets/imgs/pet_comp_logo.svg'
 import { Link } from 'react-router-dom'
 
 
-export const FooterAlternative = props => (
+export default props => (
     <footer className="footer container-fluid py-5">
         <div className="row">
 
