@@ -1,9 +1,10 @@
 .card-diary {
-    min-height: 70px;
-    background-color: var(--bg-card-diary);
+    min-height: 50px;
+    background-color: var(--bg-border-menu);
     border-radius: 10px;
     width: 100%;
-    color: var(--color-text-card-diary);
+   /* color: var(--color-text-card-diary);*/
+   color: black;
 
     display: flex;
     flex-wrap: wrap;

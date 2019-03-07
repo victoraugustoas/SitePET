@@ -25,6 +25,7 @@
 }
 
 .slide .btn:hover {
-	background-color: var(--bg-btn-banner-hover);
+	/*background-color: var(--bg-btn-banner-hover);*/
+	background-color: var(--bg-card-diary-hover);
 	color: var(--color-text-btn-banner);
 }

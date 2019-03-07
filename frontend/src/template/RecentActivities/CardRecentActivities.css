@@ -1,6 +1,8 @@
 .card-recent-activities {
     border-radius: 0.625rem;
     width: 18rem;
+    /*border:var(--bg-border-menu) solid 6px;*/
+    background-color: var(--bg-border-menu);
 }
 
 

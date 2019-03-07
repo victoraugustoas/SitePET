@@ -19,7 +19,6 @@ body {
     --bg-btn-menu-hover: #1b5cac;
     --bg-dropdown-menu: #000;
     --bg-btn-menu: #4E9FFF;
-    
     --color-icon-menu: #fff;
     --color-text-btn-menu: #fff;
 
@@ -58,4 +57,7 @@ body {
 
     /* dimensions */
     --height-menu: 61px;
+
+    /* other colors*/
+    --bg-other-type:#3bb16f;
 }
