@@ -87,15 +87,15 @@ export const FooterAlternative = props => (
                 <p>Nossas redes sociais</p>
 
                 <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/" className="pr-4">
-                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-facebook fa-3x"></i>
                 </a>
 
                 <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4">
-                    <i className="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp fa-3x"></i>
                 </a>
 
                 <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4">
-                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-instagram fa-3x"></i>
                 </a>
             </div>
 
