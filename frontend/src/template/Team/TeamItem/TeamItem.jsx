@@ -7,8 +7,9 @@ export default props => (
         
         <h4 className="title-name-team mt-2">{props.name}</h4>
         
-        <a href="mailto:xbx@icomp.ufam.edu.br" className="email-team ml-2 mt-2">
+        <a href={`mailto:${props.email}`} className="email-team ml-2 mt-2">
             <i className="far fa-envelope"></i> {props.email}
         </a>
+        
     </div>
 )
