@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 .not-found {
+    font-family: 'VT323', monospace;
     display: flex;
     
     height: calc(100vh - var(--height-menu));

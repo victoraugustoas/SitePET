@@ -1,6 +1,8 @@
 import React from 'react';
 import './Team.css'
 
+import Animate from '../Animate/Animate'
+
 import TeamItem from './TeamItem/TeamItem'
 
 import imgTutor from '../../assets/imgs/xbx.jpg'
@@ -29,7 +31,9 @@ export default props => (
 
             <div className="row">
                 <div className="col-12 mt-5">
-                    <TeamItem urlImg={imgTutor} altImg="Tutor" name="Barreto" email="xbx@icomp.ufam.edu.br" />
+                    <Animate effect='tada'>
+                        <TeamItem urlImg={imgTutor} altImg="Tutor" name="Barreto" email="xbx@icomp.ufam.edu.br" />
+                    </Animate>
                 </div>
             </div>
         </div>
