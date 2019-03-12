@@ -30,13 +30,13 @@ export default props => (
                         <NavItem url="/" label="Home" animate effect='bounce' />
                     </Animate>
 
-                    <NavDropdown label="Projetos">
+                    <NavDropdown label="Projetos" url="/projects">
                         <NavItemDropdown url="/" label="Computação Desplugada" />
                         <NavItemDropdown url="/" label="PET OBI" />
                         <NavItemDropdown url="/" label="Oficina de Programação" />
                     </NavDropdown>
 
-                    <NavDropdown label="Cursos">
+                    <NavDropdown label="Cursos" url="/courses">
                         <NavItemDropdown url="/" label="Curso de Informática(LGBT)" />
                         <NavItemDropdown url="/" label="Minicurso de C" />
                     </NavDropdown>

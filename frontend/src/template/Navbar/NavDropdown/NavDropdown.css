@@ -2,10 +2,6 @@
     background-color: var(--bg-dropdown-menu);
 }
 
-.menu div a:hover {
-    border-radius: 0;
-}
-
 .menu .btn {
     background-color: var(--bg-btn-menu);
     color: var(--color-text-btn-menu);

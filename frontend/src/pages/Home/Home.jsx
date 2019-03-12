@@ -13,6 +13,14 @@ export default props => (
         <Banner />
         <Diary />
         <RecentActivities />
+        <iframe
+            id="boasVindas"
+            title="video boas vindas"
+            frameBorder="0"
+            className="video-welcome"
+            src="https://www.youtube.com/embed/Uvmx94cUVEY?autoplay=1"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
         <Footer />
     </React.Fragment>
 )

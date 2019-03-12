@@ -11,7 +11,7 @@ export default props => (
         <div className="row">
 
             <div className="col-12 col-sm-6 col-md-3 mb-4">
-                <div className="logo">
+                <div className="logo d-flex justify-content-center">
                     <Link to="/">
                         <img src={logo} alt={'logo'} />
                     </Link>
