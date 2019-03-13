@@ -35,10 +35,10 @@ body {
     /* BannerItem colors */
     --color-text-caption-banner: #fff;
     --bg-caption-banner: #00000080;
-    --bg-btn-banner: #ff8820;
+    --bg-btn-banner: #2e8b57;
     --bg-btn-banner-hover: #1b5cac;
     --color-text-btn-banner: #fff;
-    --bg-card-diary-hover: #2e8b57;
+    --bg-card-diary-hover: #49deb2;
     /*-------*/
     
     /*------Part Agenda----*/
@@ -48,8 +48,8 @@ body {
     
     /* CardDiary colors */
     --color-text-card-diary: #fff;
-    --bg-card-diary: #ff8820;
-    --bg-card-diary-hover: #2e8b57;
+    --bg-card-diary: #2e8b57;
+    --bg-card-diary-hover: #49deb2;
     --color-text-card-diary-hover: #fff;
     /*-------*/
     
@@ -61,8 +61,8 @@ body {
     --bg-card-recent-activities: #4E9FFF;
     --color-text-card-recent-activities: #fff;
     --color-text-btn-recent-activities: #fff;
-    --bg-btn-card-recent-activities: #ff8820;
-    --bg-btn-card-recent-activities-hover: #2e8b57;
+    --bg-btn-card-recent-activities: #2e8b57;
+    --bg-btn-card-recent-activities-hover: #1b5cac;
     /*-------*/
     
     /*-----Part Rodape-----*/

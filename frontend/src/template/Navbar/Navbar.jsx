@@ -31,9 +31,9 @@ export default props => (
                     </Animate>
 
                     <NavDropdown label="Projetos" url="/projects">
-                        <NavItemDropdown url="/" label="Computação Desplugada" />
-                        <NavItemDropdown url="/" label="PET OBI" />
-                        <NavItemDropdown url="/" label="Oficina de Programação" />
+                        <NavItemDropdown url="/compdes" label="Computação Desplugada" />
+                        <NavItemDropdown url="/petobi" label="PET OBI" />
+                        <NavItemDropdown url="/oficina" label="Oficina de Programação" />
                     </NavDropdown>
 
                     <NavDropdown label="Cursos" url="/courses">

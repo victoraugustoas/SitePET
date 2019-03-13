@@ -28,8 +28,9 @@ export default props => (
 
                 <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
                     <Animate effect='shake'>
-                        <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
+                        <ProjectCard  imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
                             imgAlt="..."
+                            url="/petobi"
                             title="PET OBI" />
                     </Animate>
                 </div>

@@ -12,7 +12,7 @@ export default props => (
         </div>
 
         <div className="row pb-3">
-            <CardRecentActivities title="Computação Desplugada"
+            <CardRecentActivities title="PET OBI"
                 description={description}
                 urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
                 textButton="Ver Mais" />
@@ -20,8 +20,9 @@ export default props => (
                 description={description}
                 urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
                 textButton="Ver Mais" />
-            <CardRecentActivities title="Computação Desplugada"
+            <CardRecentActivities title="Oficina de Programação"
                 description={description}
+                url = "/oficina"
                 urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
                 textButton="Ver Mais" />
         </div>
