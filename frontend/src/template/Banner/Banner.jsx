@@ -9,11 +9,15 @@ export default props => (
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <BannerItem active urlImg={"https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"}
-                    title="Computação Desplugada" description="Bla Bla bla"
+                    url='/compdes'
+                    description="Bla Bla bla"
+                    title="Computação Desplugada"
                     textButton="Ver Mais" />
 
                 <BannerItem urlImg={img1}
-                    title="Oficinas de Programação" description="Bla Bla bla"
+                    url='/oficina'
+                    description="Bla Bla bla"
+                    title="Oficinas de Programação"
                     textButton="Ver Mais" />
 
                 <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -82,4 +82,8 @@ body {
 
     /*-----Part Dimensions-----*/
     --height-menu: 61px;
+    --v-sm: 576px;
+    --v-md: 768px;
+    --v-lg: 992px;
+    --v-xl: 1200px;
 }

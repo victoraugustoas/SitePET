@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './BannerItem.css'
 
 export default props => {
@@ -12,7 +13,9 @@ export default props => {
             <div className="carousel-caption">
                 <h1><strong>{props.title}</strong></h1>
                 <p>{props.description}</p>
-                <p><button type="button" className="btn btn-lg">{props.textButton}</button></p>
+                <Link to={`${props.url}`}>
+                    <button type="button" className="btn btn-lg">{props.textButton}</button>
+                </Link>
             </div>
         </div>
     )

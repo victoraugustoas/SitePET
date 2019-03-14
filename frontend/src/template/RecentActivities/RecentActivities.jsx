@@ -13,10 +13,12 @@ export default props => (
 
         <div className="row pb-3">
             <CardRecentActivities title="PET OBI"
+                url='/petobi'
                 description={description}
                 urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
                 textButton="Ver Mais" />
             <CardRecentActivities title="Computação Desplugada"
+                url='/compdes'
                 description={description}
                 urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
                 textButton="Ver Mais" />

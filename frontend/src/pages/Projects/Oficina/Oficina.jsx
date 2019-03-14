@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Navbar from '../../template/Navbar/Navbar'
-import Footer from '../../template/Footer/Footer'
-import AboutProject from '../../template/AboutProject/AboutProject'
-import { BannerStatic } from '../../template/Banner/Banner'
+import Navbar from '../../../template/Navbar/Navbar'
+import Footer from '../../../template/Footer/Footer'
+import AboutProject from '../../../template/AboutProject/AboutProject'
+import { BannerStatic } from '../../../template/Banner/Banner'
 
 export default props => (
     <React.Fragment>
