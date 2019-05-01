@@ -39,15 +39,15 @@ export default props => (
                 <h4>Fale com a gente!</h4>
                 <p>Nossas redes sociais</p>
 
-                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/" className="pr-4 icon-social">
                     <i className="fab fa-facebook fa-3x"></i>
                 </a>
 
-                <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4 icon-social">
                     <i className="fab fa-whatsapp fa-3x"></i>
                 </a>
 
-                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/petcompufam?utm_source=ig_profile_share&igshid=u6pl0vney2d5" className="pr-4">
+                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/petcompufam?utm_source=ig_profile_share&igshid=u6pl0vney2d5" className="pr-4 icon-social">
                     <i className="fab fa-instagram fa-3x"></i>
                 </a>
             </div>

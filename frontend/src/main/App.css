@@ -9,9 +9,7 @@ body {
 }
 
 :root {
-    --color-1: #4E9FFF;
-    --color-2: #FF2E4C;
-    --color-3: #7F1726;
+    /* --------------- Estilo de componentes --------------- */
 
     /*-----Part Menu----*/
     /* navbar colors */
@@ -22,8 +20,8 @@ body {
     /* navbarDropdown colors */
     --bg-dropdown-menu: #000;
     --bg-btn-menu: #4E9FFF;
-    --color-text-btn-menu: #fff;
     --bg-btn-menu-hover: #1b5cac;
+    --color-text-btn-menu: #fff;
     /*-------*/
     
     /*-----Part Slide----*/
@@ -37,8 +35,8 @@ body {
     --bg-caption-banner: #00000080;
     --bg-btn-banner: #2e8b57;
     --bg-btn-banner-hover: #1b5cac;
-    --color-text-btn-banner: #fff;
     --bg-card-diary-hover: #49deb2;
+    --color-text-btn-banner: #fff;
     /*-------*/
     
     /*------Part Agenda----*/
@@ -59,16 +57,17 @@ body {
     
     /* CardRecentsActivities colors */
     --bg-card-recent-activities: #4E9FFF;
-    --color-text-card-recent-activities: #fff;
-    --color-text-btn-recent-activities: #fff;
     --bg-btn-card-recent-activities: #2e8b57;
     --bg-btn-card-recent-activities-hover: #1b5cac;
+    --color-text-card-recent-activities: #fff;
+    --color-text-btn-recent-activities: #fff;
     /*-------*/
     
     /*-----Part Rodape-----*/
     /* Footer colors */
     --bg-footer: #4E9FFF;
     --color-text-footer: #fff;
+    --color-text-icon-social-hover: #1b5cac;
     /*-------*/
 
     /*-----Part Team-----*/
@@ -79,6 +78,20 @@ body {
     --color-text-email-team: #4E9FFF;
     --color-text-email-team-hover: #49deb2;
     /*-------*/
+}
+
+:root {
+
+    /* --------------- Estilos de Páginas --------------- */
+
+    /*-----Part About-----*/
+    --color-text-capitular-letter: #4E9FFF;
+    --color-text-quote: #49deb2;
+    /*-------*/
+}
+
+:root {
+    /* --------------- Dimensões de Dispositivos --------------- */
 
     /*-----Part Dimensions-----*/
     --height-menu: 61px;

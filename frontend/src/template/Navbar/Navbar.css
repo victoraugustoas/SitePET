@@ -1,13 +1,17 @@
 .cabecalho {
     background-color: var(--bg-menu);
     border-bottom: var(--bg-border-menu) solid 5px;
-    position: -webkit-sticky; /* Safari */
+
+    /* Safari */
+    position: -webkit-sticky;
+
+    /*usado para se sobrepor aos demais componentes*/
     position: sticky;
     top: 0;
-    z-index: 100; /*usado para se sobrepor aos demais componentes*/
+    z-index: 100;
 }
 
-.logo{
+.logo {
     width: 200px;
 }
 

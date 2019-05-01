@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 
 import Navbar from '../../template/Navbar/Navbar'
 import Footer from '../../template/Footer/Footer'
@@ -10,24 +11,38 @@ export default props => (
         <BannerStatic urlImg="https://www.w3schools.com/css/img_5terre_wide.jpg"
             title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
 
-        <div className="container">
-            <h2>Sobre o PET Computação</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum est quis massa vulputate, eu efficitur ex volutpat. Aliquam erat volutpat. Sed ultrices dignissim risus ac commodo. Etiam rutrum ante non bibendum mattis. Cras quis iaculis ex, at facilisis risus. Ut in hendrerit nisi. Sed nisl nisi, fringilla at massa ut, pharetra porttitor sapien. Nunc vitae malesuada ex. Cras metus lectus, lobortis volutpat pretium et, laoreet at sem.
+        <section className="about container pt-5">
+            <p className="text-about">
+                <span className="capitular-letter">O</span> PET Computação está ativo desde 2007, e já teve os professores Ruiter Caldas e José Francisco Netto como tutores - sendo o professor Raimundo Barreto nosso atual tutor. Nosso objetivo é promover atividades extracurriculares que complementam a vida acadêmica dos alunos, baseada na tríade universitária: Ensino, Pesquisa e Extensão. Atualmente, o PET tem 11 bolsistas de Ciência da Computação, e um número flexível dos chamados Amigos dode PET - que trabalham voluntariamente nos trabalhos junto dos petianos. As principais atividades de extensão do PET são: a Computação Desplugada, que ensina os fundamentos da computação sem o uso de computador, por meio de dramatizações, quebra-cabeças, truques de mágica e testes; O preparatório OBI, que visa preparar os alunos para participar da olimpíada de informática;  O PET Café, que arrecada dinheiro para fins auxiliares através da venda de alimentos; divulgar nas escolas o projeto e falar a cerca de computação, do curso e, a vida acadêmica. Também são realizadas palestras e minicursos abordando computação dentro da universidade, a fim de promover ajuda aos outros estudantes.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum sollicitudin nunc a scelerisque. Morbi fermentum pellentesque sem id ullamcorper. Aliquam quis lectus vitae nisl sodales porta vitae id turpis. Curabitur eget massa nec libero consectetur volutpat. Praesent ullamcorper dui nunc, id congue ligula fermentum vel. Fusce massa sapien, elementum sit amet malesuada sed, consequat ac metus. Duis vitae laoreet odio. Nulla erat magna, vehicula rhoncus luctus vel, varius ut magna.
-            </p>
-            <p>
-                Aliquam varius massa a sapien mattis convallis. Phasellus volutpat diam libero, id tempus mi fermentum et. Praesent ultrices porta tristique. Nulla ut neque nisi. Nunc odio eros, accumsan in condimentum id, dictum facilisis orci. Integer lobortis quam non auctor semper. Integer elementum enim sit amet ante commodo consequat. Donec eget orci justo. Donec sit amet pulvinar urna, varius mollis odio. Nullam consectetur venenatis iaculis. Sed vitae libero sit amet nisi mollis tempor maximus vitae nisi.
-            </p>
-            <p>
-                Maecenas lorem arcu, ultricies et arcu vitae, sodales condimentum odio. Aenean in porta sapien. Vestibulum posuere purus nec tristique vestibulum. Vestibulum sed sapien vel ipsum interdum laoreet. Ut dapibus, tellus et rhoncus sollicitudin, augue magna pulvinar diam, maximus lacinia tellus mauris id enim. Praesent sollicitudin arcu consequat blandit pulvinar. Sed scelerisque elit quis tortor commodo, non iaculis neque ullamcorper. Nullam pulvinar faucibus massa, quis ornare eros cursus efficitur. Aenean dictum, justo ut accumsan volutpat, diam nisl rhoncus velit, at accumsan massa urna non magna. Sed sodales justo vitae lacus congue, eget rhoncus lacus iaculis. Nunc eget iaculis elit. Morbi consequat justo sit amet justo tempor fermentum. Ut euismod efficitur neque sit amet fermentum. Aenean rutrum faucibus purus. Mauris auctor nisi nibh, quis feugiat neque pellentesque eu.
-            </p>
-            <p>
-                Suspendisse tincidunt nisl non placerat suscipit. Nam sollicitudin quam in nisl commodo congue. Aenean vitae efficitur nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam quis eleifend felis. Etiam convallis neque enim, a eleifend sem maximus nec. Sed mollis nulla sem, ut malesuada mi vestibulum sit amet. Suspendisse luctus et neque ut placerat. Ut egestas turpis mauris, eu accumsan velit facilisis quis. Sed in dolor nec orci blandit condimentum in at risus. Nulla ultrices odio at fringilla facilisis. Vestibulum sed augue dolor. Integer nunc velit, viverra nec lacinia et, dapibus a odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed at lectus luctus, cursus libero sed, elementum tellus.
-            </p>
-        </div>
+
+            <blockquote className="blockquote text-center">
+                <p>
+                    <span className="quote fas fa-quote-left"></span> Além de ser um braço do Icomp na comunidade, o PET visa formar o aluno como um cidadão completo, 
+                    porque dá a ele a oportunidade de vivenciar plenamente o tripé universitário. 
+                    Há uma mudança drástica de visão do aluno depois que ele participa do programa. 
+                    Aqui, ele tem experiências que normalmente não teria, como dar aula. <span className="quote fas fa-quote-right"></span>
+
+                </p>
+                <div className="blockquote-footer"><cite>Raimundo Barreto, Tutor do PET.</cite></div>
+            </blockquote>
+
+
+            <blockquote className="blockquote text-center">
+                <p>
+                    <span className="quote fas fa-quote-left"></span> Eles ensinavam os conceitos da 
+                    computação de forma simples, diferente, tirando essa ideia de que a computação é 
+                    uma coisa complicada. Na época, eu ainda não sabia o que queria fazer; 
+                    a palestra despertou minha curiosidade e me incentivou a vir cursar Ciência da 
+                    Computação em Manaus. Poder divulgar o conhecimento e mostrar a computação de forma 
+                    acessível é incrível. Despertar o interesse nas crianças, assim como aconteceu comigo, 
+                    é recompensador. <span className="quote fas fa-quote-right"></span>
+
+                </p>
+                <div className="blockquote-footer"><cite>Hélio Rodrigues, atual petiano, sobre o PET ter visitado a sua escola.</cite></div>
+            </blockquote>
+            
+        </section>
         <Footer />
 
     </React.Fragment >

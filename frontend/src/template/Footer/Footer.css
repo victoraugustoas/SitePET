@@ -14,3 +14,7 @@ footer a, a:hover{
 }
 
 
+.icon-social:hover{
+    color: var(--color-text-icon-social-hover);
+    transition: 500ms;
+}
