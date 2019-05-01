@@ -100,3 +100,11 @@ body {
     --v-lg: 992px;
     --v-xl: 1200px;
 }
+
+/* Classes globais */
+.capitular-letter {
+    color: var(--color-text-capitular-letter);
+    float: left;
+    padding: 1rem ; 
+    font-size: 3rem;    
+}
