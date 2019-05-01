@@ -12,7 +12,7 @@ export default props => {
             <div className="background-banner-static" style={styleInline}></div>
             <div className="carousel-caption">
                 <h1><strong>{props.title}</strong></h1>
-                <p>{props.description}</p>
+                <p>{props.subtitle}</p>
                 <Link to={`${props.url}`}>
                     <button type="button" className="btn btn-lg">{props.textButton}</button>
                 </Link>

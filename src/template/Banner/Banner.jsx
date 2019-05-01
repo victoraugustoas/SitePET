@@ -1,24 +1,12 @@
 import React from 'react'
 import './Banner.css'
-import BannerItem from './BannerItem/BannerItem'
-
-import img1 from '../../assets/imgs/2.jpg'
 
 export default props => (
     <section className="slide">
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-                <BannerItem active urlImg={"https://www.lamborghini.com/sites/it-en/files/DAM/it/models_gateway/blocks/special.png"}
-                    url='/compdes'
-                    description="Bla Bla bla"
-                    title="Computação Desplugada"
-                    textButton="Ver Mais" />
 
-                <BannerItem urlImg={img1}
-                    url='/oficina'
-                    description="Bla Bla bla"
-                    title="Oficinas de Programação"
-                    textButton="Ver Mais" />
+                {props.children}
 
                 <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
