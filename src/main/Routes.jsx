@@ -23,7 +23,7 @@ export default props => (
         <Route path="/petobi" component={PetObi} />
         <Route path="/compdes" component={CompuDes} />
         <Route path="/petianos" component={Petianos} />
-        <Route path="/Minicurso" component={Minicurso} />
+        <Route path="/minicurso" component={Minicurso} />
         <Route path="/kodikos" component={Kodikos} />
 
         <Route path="*" component={NotFound} />

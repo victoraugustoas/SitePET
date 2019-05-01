@@ -21,16 +21,8 @@ export default props => (
                 <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
                     <Animate effect='shake'>
                         <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
-                            title="PET Solidário" />
-                    </Animate>
-                </div>
-
-                <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
-                    <Animate effect='shake'>
-                        <ProjectCard  imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
-                            url="/petobi"
+                            imgAlt="PET OBI"
+                            urlProject="/petobi"
                             title="PET OBI" />
                     </Animate>
                 </div>
@@ -38,8 +30,18 @@ export default props => (
                 <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
                     <Animate effect='shake'>
                         <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
-                            title="Oficina de Programação" />
+                            urlProject="/minicurso"
+                            imgAlt="Minicurso"
+                            title="Minicurso" />
+                    </Animate>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
+                    <Animate effect='shake'>
+                        <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
+                            imgAlt="Computação Desplugada"
+                            urlProject="/compdes"
+                            title="Computação Desplugada" />
                     </Animate>
                 </div>
 
@@ -50,23 +52,8 @@ export default props => (
                 <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
                     <Animate effect='shake'>
                         <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
-                            title="PET Café" />
-                    </Animate>
-                </div>
-
-                <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
-                    <Animate effect='shake'>
-                        <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
-                            title="Computação Desplugada" />
-                    </Animate>
-                </div>
-
-                <div className="col-12 col-sm-6 col-md-4 pb-5 d-flex justify-content-center">
-                    <Animate effect='shake'>
-                        <ProjectCard imgUrl="http://pet.icomp.ufam.edu.br/img/pet_obi.jpg"
-                            imgAlt="..."
+                            imgAlt="Kodikós"
+                            urlProject="/kodikos"
                             title="Kodikós" />
                     </Animate>
                 </div>
