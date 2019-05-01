@@ -11,13 +11,11 @@ import logo from '../../assets/imgs/pet_comp_logo.svg'
 export default props => (
     <header className="cabecalho" >
         <nav className="navbar navbar-expand-md">
-            <Animate effect='bounce'>
-                <div id="logoTop" className="logo">
-                    <Link to="/">
-                        <img src={logo} alt={'logo'} />
-                    </Link>
-                </div>
-            </Animate>
+            <div id="logoTop" className="logo">
+                <Link to="/">
+                    <img src={logo} alt={'logo'} />
+                </Link>
+            </div>
 
             <button className="navbar-toggler icon-menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
@@ -26,9 +24,7 @@ export default props => (
 
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul className="menu navbar-nav ml-auto">
-                    <Animate effect='jello'>
-                        <NavItem url="/" label="Home" animate effect='bounce' />
-                    </Animate>
+                    <NavItem url="/" label="Home" animate effect='bounce' />
 
                     <NavDropdown label="Projetos" url="/projects">
                         <NavItemDropdown url="/compdes" label="Computação Desplugada" />
@@ -41,9 +37,8 @@ export default props => (
                         <NavItemDropdown url="/" label="Curso de Informática(LGBT)" />
                     </NavDropdown>
 
-                    <Animate effect='jello'>
-                        <NavItem url="/petianos" label="Petianos" />
-                    </Animate>
+                    <NavItem url="/petianos" label="Petianos" />
+
                     <NavItem url="/about" label="Sobre" />
                 </ul>
             </div>

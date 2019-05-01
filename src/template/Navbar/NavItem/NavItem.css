@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+.menu li {
+    transition: 500ms;
+}
+
 .menu li:hover {
     color: var(--color-text-btn-menu);
     text-decoration: none;
