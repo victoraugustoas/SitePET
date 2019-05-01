@@ -11,17 +11,21 @@ import Petianos from '../pages/Petianos/Petianos'
 import ProjectsMain from '../pages/Projects/ProjectsMain'
 import PetObi from '../pages/Projects/PetObi/PetObi'
 import CompuDes from '../pages/Projects/CompuDes/CompuDes';
-import Oficina from '../pages/Projects/Oficina/Oficina';
+import Minicurso from '../pages/Projects/Minicurso/Minicurso';
+import Kodikos from '../pages/Projects/Kodikos/Kodikos';
 
 export default props => (
     <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={ProjectsMain}/>
+
+        <Route path="/projects" component={ProjectsMain} />
         <Route path="/petobi" component={PetObi} />
         <Route path="/compdes" component={CompuDes} />
         <Route path="/petianos" component={Petianos} />
-        <Route path="/oficina" component={Oficina} />
+        <Route path="/Minicurso" component={Minicurso} />
+        <Route path="/kodikos" component={Kodikos} />
+
         <Route path="*" component={NotFound} />
     </Switch>
 )

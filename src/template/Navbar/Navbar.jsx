@@ -33,12 +33,12 @@ export default props => (
                     <NavDropdown label="Projetos" url="/projects">
                         <NavItemDropdown url="/compdes" label="Computação Desplugada" />
                         <NavItemDropdown url="/petobi" label="PET OBI" />
-                        <NavItemDropdown url="/oficina" label="Oficina de Programação" />
+                        <NavItemDropdown url="/minicurso" label="Minicurso" />
+                        <NavItemDropdown url="/kodikos" label="Kodikós" />
                     </NavDropdown>
 
                     <NavDropdown label="Cursos" url="/courses">
                         <NavItemDropdown url="/" label="Curso de Informática(LGBT)" />
-                        <NavItemDropdown url="/" label="Minicurso de C" />
                     </NavDropdown>
 
                     <Animate effect='jello'>
