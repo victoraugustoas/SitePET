@@ -28,5 +28,6 @@
     height: calc(100vh - var(--height-menu));
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }

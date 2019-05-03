@@ -4,7 +4,6 @@ import './Navbar.css'
 import { NavItem, NavItemDropdown } from './NavItem/NavItem'
 import NavDropdown from './NavDropdown/NavDropdown'
 import { Link } from 'react-router-dom'
-import Animate from '../Animate/Animate'
 
 import logo from '../../assets/imgs/pet_comp_logo.svg'
 

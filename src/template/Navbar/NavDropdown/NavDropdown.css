@@ -8,11 +8,15 @@
     box-shadow: none;
 }
 
-.menu .btn:hover,
-.menu .btn:focus{
+.menu .btn:hover{
     background-color: var(--bg-btn-menu-hover);
 }
 
 .dropdown:hover > .dropdown-menu {
     display: block;
+    margin: 0;
+}
+
+.dropdown-item:focus .btn{
+    background-color: var(--bg-btn-menu-hover);
 }

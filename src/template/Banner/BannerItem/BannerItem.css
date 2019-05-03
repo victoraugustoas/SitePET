@@ -11,11 +11,11 @@
 	background-color: var(--bg-caption-banner);
 	right: 0;
 	left: 0;
-	transition: 1s;
+	transition: 500ms;
 }
 
 .carousel-caption:hover{
-	font-size: 2em;
+	font-size: 1.1em;
 	font-style: italic;
 }
 
