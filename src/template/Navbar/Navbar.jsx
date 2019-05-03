@@ -32,10 +32,6 @@ export default props => (
                         <NavItemDropdown url="/kodikos" label="Kodikós" />
                     </NavDropdown>
 
-                    <NavDropdown label="Cursos" url="/courses">
-                        <NavItemDropdown url="/" label="Curso de Informática(LGBT)" />
-                    </NavDropdown>
-
                     <NavItem url="/petianos" label="Petianos" />
 
                     <NavItem url="/about" label="Sobre" />
