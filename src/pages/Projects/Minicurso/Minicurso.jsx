@@ -5,10 +5,20 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
+import minicurso from '../../../assets/imgs/logos/minicurso.png'
+import minicurso_2x from '../../../assets/imgs/logos/minicurso_2x.png'
+import minicurso_mobile from '../../../assets/imgs/logos/minicurso_mobile.png'
+
 export default props => (
     <React.Fragment>
         <Navbar />
-        <BannerStatic urlImg="https://www.w3schools.com/css/img_5terre_wide.jpg"
+        <BannerStatic
+            urlImg={minicurso}
+            urlImgs={[
+                { src: minicurso_mobile, size: 768 },
+                { src: minicurso, size: 1920 },
+                { src: minicurso_2x }
+            ]}
             title="O que é o Minicurso?" />
         <AboutProject title="Minicurso">
             <section className="row">

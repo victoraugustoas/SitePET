@@ -8,7 +8,9 @@ import { BannerStatic } from '../../../template/Banner/Banner'
 export default props => (
     <React.Fragment>
         <Navbar />
-        <BannerStatic urlImg="https://www.w3schools.com/css/img_5terre_wide.jpg"
+        <BannerStatic urlImgs={[
+            { src: "https://www.w3schools.com/css/img_5terre_wide.jpg" }
+        ]}
             title="O que é Computação Desplugada?" />
         <AboutProject title="Computação Desplugada">
             <section className="row">

@@ -13,7 +13,9 @@ export default props => (
         <BannerStatic title="Integrantes do PET Computação"
             subtitle="Veja quem compõe nosso time!"
             position="top"
-            urlImg="http://pet.icomp.ufam.edu.br/img/petianos.jpg"
+            urlImgs={[
+                { src: "http://pet.icomp.ufam.edu.br/img/petianos.jpg" }
+            ]}
         />
         <Team />
         <Footer />

@@ -10,7 +10,9 @@ import Quote from '../../template/Quote/Quote'
 export default props => (
     <React.Fragment>
         <Navbar />
-        <BannerStatic urlImg="https://www.w3schools.com/css/img_5terre_wide.jpg"
+        <BannerStatic urlImgs={[
+            { src: "https://www.w3schools.com/css/img_5terre_wide.jpg" }
+        ]}
             title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
 
         <AboutProject title="Sobre o PET Computação">

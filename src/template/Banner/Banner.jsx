@@ -22,22 +22,45 @@ export default props => (
     </section>
 )
 
-export const BannerStatic = props => {
-    let styleInline = {
-        backgroundImage: `url('${props.urlImg}')`,
-        backgroundPosition: props.position ? props.position : ''
+export class BannerStatic extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = { ...props }
+
+        this.bgImgs = React.createRef()
+        this.setImg = this.setImg.bind(this)
     }
 
-    let bannerStatic = (
-        <section className="banner">
-            <div className="background-banner-static" style={styleInline}></div>
+    setImg() {
+        for (let i = 0; i < this.props.urlImgs.length; i++) {
+            if (window.innerWidth < this.props.urlImgs[i].size) {
+                this.bgImgs.current.style.backgroundImage = `url(${this.props.urlImgs[i].src})`
+                this.bgImgs.current.style.backgroundPosition = `${this.props.urlImgs[i].position}`
+                return
+            } else {
+                this.bgImgs.current.style.backgroundImage = `url(${this.props.urlImgs[i].src})`
+                this.bgImgs.current.style.backgroundPosition = `${this.props.urlImgs[i].position}`
+            }
+        }
+    }
 
-            <div className="text-banner d-flex flex-column align-items-center justify-content-center">
-                <h1>{props.title}</h1>
-                <h4>{props.subtitle}</h4>
-            </div>
-        </section >
-    )
+    componentDidMount() {
+        this.setImg()
+    }
 
-    return bannerStatic
+    render() {
+        let bannerStatic = (
+            <section className="banner">
+                <div ref={this.bgImgs} className="background-banner-static"></div>
+
+                <div className="text-banner d-flex flex-column align-items-center justify-content-center">
+                    <h1>{this.props.title}</h1>
+                    {this.props.subtitle ? <h4>{this.props.subtitle}</h4> : ''}
+                </div>
+            </section >
+        )
+
+        return bannerStatic
+    }
 }
