@@ -2,23 +2,46 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './BannerItem.css'
 
-export default props => {
-    let styleInline = {
-        backgroundImage: `url('${props.urlImg}')`
+export default class BannerItem extends React.Component {
+
+    constructor(props) {
+        super(props)
+
+        this.bgImgs = React.createRef()
     }
 
-    let bannerItem = (
-        <div className={"carousel-item " + (props.active ? 'active' : '')}>
-            <div className="background-banner-static" style={styleInline}></div>
-            <div className="carousel-caption">
-                <h1><strong>{props.title}</strong></h1>
-                <p>{props.subtitle}</p>
-                <Link to={`${props.url}`}>
-                    <button type="button" className="btn btn-lg">{props.textButton}</button>
-                </Link>
-            </div>
-        </div>
-    )
+    componentDidMount() {
+        this.setImg()
+    }
 
-    return bannerItem
+    setImg() {
+        for (let i = 0; i < this.props.urlImgs.length; i++) {
+            if (window.innerWidth < this.props.urlImgs[i].size) {
+                this.bgImgs.current.style.backgroundImage = `url(${this.props.urlImgs[i].src})`
+                this.bgImgs.current.style.backgroundPosition = `${this.props.urlImgs[i].position}`
+                return
+            } else {
+                this.bgImgs.current.style.backgroundImage = `url(${this.props.urlImgs[i].src})`
+                this.bgImgs.current.style.backgroundPosition = `${this.props.urlImgs[i].position}`
+            }
+        }
+    }
+
+    render() {
+        let bannerItem = (
+            <div className={"carousel-item " + (this.props.active ? 'active' : '')}>
+                <div ref={this.bgImgs} className="background-banner-static"></div>
+                <div className="carousel-caption">
+                    <h1><strong>{this.props.title}</strong></h1>
+                    <p>{this.props.subtitle}</p>
+                    <Link to={`${this.props.url}`}>
+                        <button type="button" className="btn btn-lg">{this.props.textButton}</button>
+                    </Link>
+                </div>
+            </div>
+        )
+
+        return bannerItem
+    }
+
 }
