@@ -8,7 +8,7 @@ footer ul li{
     list-style: none;
 }
 
-footer a, a:hover{
+footer a, footer a:hover{
     text-decoration: none;
     color: var(--color-text-footer);
 }
