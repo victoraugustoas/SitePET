@@ -6,6 +6,7 @@ import Footer from '../../template/Footer/Footer'
 import { BannerStatic } from '../../template/Banner/Banner'
 import Team from '../../template/Team/Team'
 
+import img_petianos from '../../assets/imgs/petianos.jpg'
 
 export default props => (
     <React.Fragment>
@@ -14,7 +15,7 @@ export default props => (
             subtitle="Veja quem compõe nosso time!"
             position="top"
             urlImgs={[
-                { src: "http://pet.icomp.ufam.edu.br/img/petianos.jpg" }
+                { src: img_petianos }
             ]}
         />
         <Team />

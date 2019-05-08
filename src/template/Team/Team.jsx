@@ -95,7 +95,7 @@ export default props => (
 
         </div>
 
-        <div className="container-fluid mt-5 pb-5">
+        {/* <div className="container-fluid mt-5 pb-5">
             <div className="row">
                 <div className="col-12 d-flex justify-content-center text-center">
                     <h2 className="title-team">Amigos do PET Computação</h2>
@@ -126,6 +126,6 @@ export default props => (
                 </div>
             </div>
 
-        </div>
+        </div> */}
     </React.Fragment >
 )
