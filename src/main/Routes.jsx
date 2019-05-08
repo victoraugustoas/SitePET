@@ -12,7 +12,6 @@ import ProjectsMain from '../pages/Projects/ProjectsMain'
 import PetObi from '../pages/Projects/PetObi/PetObi'
 import CompuDes from '../pages/Projects/CompuDes/CompuDes'
 import Minicurso from '../pages/Projects/Minicurso/Minicurso'
-import Kodikos from '../pages/Projects/Kodikos/Kodikos'
 
 // outras páginas
 import Minicurso_banner from '../pages/OtherPages/Minicurso_banner'
@@ -32,7 +31,6 @@ export default props => (
         <Route path="/compdes" component={CompuDes} />
         <Route path="/petianos" component={Petianos} />
         <Route path="/minicurso" component={Minicurso} />
-        <Route path="/kodikos" component={Kodikos} />
 
         <Route path="*" component={NotFound} />
     </Switch>

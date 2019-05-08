@@ -5,11 +5,17 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
+import comp_desp_mobile from '../../../assets/imgs/logos/comp_desp_mobile.png'
+import comp_desp from '../../../assets/imgs/logos/comp_desp.png'
+import comp_desp_2x from '../../../assets/imgs/logos/comp_desp_2x.png'
+
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
-            { src: "https://www.w3schools.com/css/img_5terre_wide.jpg" }
+            { src: comp_desp_mobile, size: 768 },
+            { src: comp_desp, size: 1920 },
+            { src: comp_desp_2x }
         ]}
             title="O que é Computação Desplugada?" />
         <AboutProject title="Computação Desplugada">
