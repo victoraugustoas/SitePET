@@ -29,7 +29,6 @@ export default props => (
                         <NavItemDropdown url="/compdes" label="Computação Desplugada" />
                         <NavItemDropdown url="/petobi" label="PET OBI" />
                         <NavItemDropdown url="/minicurso" label="Minicurso" />
-                        <NavItemDropdown url="/kodikos" label="Kodikós" />
                     </NavDropdown>
 
                     <NavItem url="/petianos" label="Petianos" />

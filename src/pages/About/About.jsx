@@ -11,7 +11,7 @@ export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
-            { src: "https://www.w3schools.com/css/img_5terre_wide.jpg" }
+            { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557503559/sobre_qjpqob.jpg` }
         ]}
             title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
 
