@@ -4,6 +4,7 @@ import './Home.css'
 import Navbar from '../../template/Navbar/Navbar'
 import Diary from '../../template/Diary/Diary'
 import RecentActivities from '../../template/RecentActivities/RecentActivities'
+import CardRecentActivities from '../../template/RecentActivities/CardRecentActivities'
 import Banner from '../../template/Banner/Banner'
 import Footer from '../../template/Footer/Footer'
 import BannerItem from '../../template/Banner/BannerItem/BannerItem'
@@ -16,6 +17,7 @@ import cartaz_minicurso from '../../assets/imgs/cartaz_minicurso.png'
 import cartaz_minicurso_mobile from '../../assets/imgs/logos/minicurso_mobile.png'
 
 const url = "https://calendar.google.com/calendar/embed?src=petcomputacao%40icomp.ufam.edu.br&ctz=America%2FBoa_Vista"
+const description = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`
 
 export default props => (
     <React.Fragment>
@@ -49,7 +51,23 @@ export default props => (
                 <Card url={url} date="16/05" title="ConectPET" />
             </CardDiary>
         </Diary>
-        <RecentActivities />
+        <RecentActivities>
+            <CardRecentActivities title="PET OBI"
+                url='/petobi'
+                description={description}
+                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                textButton="Ver Mais" />
+            <CardRecentActivities title="Computação Desplugada"
+                url='/compdes'
+                description={description}
+                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                textButton="Ver Mais" />
+            <CardRecentActivities title="Oficina de Programação"
+                description={description}
+                url="/oficina"
+                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+                textButton="Ver Mais" />
+        </RecentActivities>
         <Footer />
     </React.Fragment>
 )

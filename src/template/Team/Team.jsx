@@ -3,7 +3,7 @@ import './Team.css'
 
 import Animate from '../Animate/Animate'
 
-import TeamItem, { FriendPET } from './TeamItem/TeamItem'
+import TeamItem from './TeamItem/TeamItem'
 
 import imgTutor from '../../assets/imgs/xbx.jpg'
 import imgAndrey from '../../assets/imgs/andrey.jpg'
@@ -95,37 +95,5 @@ export default props => (
 
         </div>
 
-        {/* <div className="container-fluid mt-5 pb-5">
-            <div className="row">
-                <div className="col-12 d-flex justify-content-center text-center">
-                    <h2 className="title-team">Amigos do PET Computação</h2>
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgAndrey} altImg="Andrey" name="Andrey Souza" email="aos@icomp.ufam.edu.br" />
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgBianca} altImg="Bianca" name="Bianca Dias" email="bianca.dias@icomp.ufam.edu.br" />
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgBrenda} altImg="Brenda" name="Brenda Aguiar" email="brenda.aguiar@icomp.ufam.edu.br" />
-                </div>
-            </div>
-            
-            <div className="row">
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgJulio} altImg="Julio" name="Julio Rennann" email="julio.rennann@icomp.ufam.edu.br" />
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgLuis} altImg="Luis" name="Luis Guilherme" email="lgfs@icomp.ufam.edu.br" />
-                </div>
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
-                    <FriendPET urlImg={imgVictor} altImg="Victor" name="Victor Augusto" email="vaas@icomp.ufam.edu.br" />
-                </div>
-            </div>
-
-        </div> */}
     </React.Fragment >
 )
