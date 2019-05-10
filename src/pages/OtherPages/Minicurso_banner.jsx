@@ -35,8 +35,6 @@ export default props => {
             <div className="row">
                 <p>Hmmm não sei não, nem sei nada, como vou revisar?</p>
             </div>
-
-
             <div className="row">
                 <p>Fiquem tranquilos, porque está vindo aí o super Minicurso de C do Pet Computação🖥 para que você não chegue em AED 1 sem ter a mínima noção da sintaxe, aprenda as estruturas condicionais, de controle e de repetição e ainda aquelas estruturas de dados que são muito usadas 😎</p>
             </div>
