@@ -6,8 +6,6 @@ import Footer from '../../template/Footer/Footer'
 import { BannerStatic } from '../../template/Banner/Banner'
 import Team from '../../template/Team/Team'
 
-import img_petianos from '../../assets/imgs/petianos.jpg'
-
 export default props => (
     <React.Fragment>
         <Navbar />
@@ -15,7 +13,9 @@ export default props => (
             subtitle="Veja quem compõe nosso time!"
             position="top"
             urlImgs={[
-                { src: img_petianos }
+                { src: "https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_720/v1557458263/petianos_qw24c1.jpg", size: 720 },
+                { src: "https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_1920/v1557458263/petianos_qw24c1.jpg", size: 1920 },
+                { src: "https://res.cloudinary.com/cloudpetimgs/image/upload/v1557458263/petianos_qw24c1.jpg" }
             ]}
         />
         <Team />

@@ -5,16 +5,14 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
-import pet_obi_mobile from '../../../assets/imgs/logos/pet_obi_mobile.png'
-import pet_obi from '../../../assets/imgs/logos/pet_obi.png'
-import pet_obi_2x from '../../../assets/imgs/logos/pet_obi_2x.png'
+const pet_obi_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500574/pet_obi_mobile_bs4jmi.png`
+const pet_obi_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/pet_obi_2x_ihilqp.png`
 
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
             { src: pet_obi_mobile, size: 768 },
-            { src: pet_obi, size: 1920 },
             { src: pet_obi_2x }
         ]}
             title="O que é o PET OBI?" />

@@ -6,9 +6,9 @@ import Footer from '../../template/Footer/Footer'
 import ProjectCard from '../../template/ProjectCard/ProjectCard'
 import Animate from '../../template/Animate/Animate'
 
-import pet_obi from '../../assets/imgs/logos/pet_obi.png'
-import minicurso from '../../assets/imgs/logos/minicurso.png'
-import comp_desp from '../../assets/imgs/logos/comp_desp.png'
+const pet_obi = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/pet_obi_2x_ihilqp.png`
+const minicurso = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/minicurso_2x_mq2ftn.png`
+const comp_desp = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/comp_desp_2x_dpt5nj.png`
 
 export default props => (
     <React.Fragment>

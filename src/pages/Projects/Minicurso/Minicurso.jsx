@@ -5,18 +5,15 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
-import minicurso from '../../../assets/imgs/logos/minicurso.png'
-import minicurso_2x from '../../../assets/imgs/logos/minicurso_2x.png'
-import minicurso_mobile from '../../../assets/imgs/logos/minicurso_mobile.png'
+const minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/minicurso_2x_mq2ftn.png`
+const minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500574/minicurso_mobile_tsp5vd.png`
 
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic
-            urlImg={minicurso}
             urlImgs={[
                 { src: minicurso_mobile, size: 768 },
-                { src: minicurso, size: 1920 },
                 { src: minicurso_2x }
             ]}
             title="O que é o Minicurso?" />

@@ -5,16 +5,14 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
-import comp_desp_mobile from '../../../assets/imgs/logos/comp_desp_mobile.png'
-import comp_desp from '../../../assets/imgs/logos/comp_desp.png'
-import comp_desp_2x from '../../../assets/imgs/logos/comp_desp_2x.png'
+const comp_desp_mobile = 'https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500573/comp_desp_mobile_lnni1o.png'
+const comp_desp_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/comp_desp_2x_dpt5nj.png`
 
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
             { src: comp_desp_mobile, size: 768 },
-            { src: comp_desp, size: 1920 },
             { src: comp_desp_2x }
         ]}
             title="O que é Computação Desplugada?" />
