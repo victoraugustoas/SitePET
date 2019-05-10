@@ -6,7 +6,7 @@ import React from 'react'
 import './App.css'
 
 // Rotas
-import {BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Routes from '../main/Routes'
 
 export default props => {

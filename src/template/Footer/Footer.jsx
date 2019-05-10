@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom'
 
 export default props => (
     <footer className="footer container-fluid py-5">
-        <div className="row">
+        <div className="row align-items-center">
 
-            <div className="col-12 col-sm-6 col-md-3 mb-4">
-                <div className="logo d-flex justify-content-center">
+            <div className="col d-flex justify-content-center align-items-center mb-4">
+                <div className="footer-logo">
                     <Link to="/">
                         <img src={logo} alt={'logo'} />
                     </Link>

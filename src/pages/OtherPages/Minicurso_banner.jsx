@@ -50,7 +50,7 @@ export default props => {
                     <li>Aulas todas as terças e quintas</li>
                     <li>Ao final do curso você reberá um certificado de 16 horas complementares</li>
                     <li>O conteúdo ministrado no curso visa a disciplina de Algoritmos e Estruturas de dados I</li>
-                    <li>Local: Laboratório x do IComp</li>
+                    <li>Local: Laboratório de graduação 1 do IComp</li>
                 </ul>
             </div>
             <div className="row">

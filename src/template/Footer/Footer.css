@@ -4,17 +4,21 @@ footer {
     color: var(--color-text-footer);
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
 }
 
-footer a, footer a:hover{
+.footer-logo {
+    width: 70%;
+}
+
+footer a,
+footer a:hover {
     text-decoration: none;
     color: var(--color-text-footer);
 }
 
-
-.icon-social:hover{
+.icon-social:hover {
     color: var(--color-text-icon-social-hover);
     transition: 500ms;
 }

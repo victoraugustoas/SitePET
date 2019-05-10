@@ -1,5 +1,6 @@
 .img-team {
-    height: 15.6rem;
+    /* height: 15.6rem; */
+    width: 70%;
 }
 
 .email-team {
@@ -12,6 +13,6 @@
     color: var(--color-title-name-team);
 }
 
-.email-team:hover{
+.email-team:hover {
     color: var(--color-text-email-team-hover);
 }

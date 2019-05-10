@@ -31,8 +31,8 @@ export default props => (
                 </div>
 
             </div>
-            <div className="row">
-                <div className="col-12 mt-5">
+            <div className="row justify-content-center mt-5">
+                <div className="col-4">
                     <Animate effect='tada'>
                         <TeamItem urlImg={imgTutor} altImg="Tutor" name="Barreto" email="xbx@icomp.ufam.edu.br" />
                     </Animate>
