@@ -42,6 +42,15 @@ export default props => (
                 subtitle="O dinheiro arrecadado será utilizado em projetos do PET"
                 title="Sorteio de SSD 240GB"
                 textButton="Ver Mais" />
+            <BannerItem
+                urlImgs={[
+                    { src: code }
+                ]}
+                url='/recent_sitepet'
+                title="Novo site do PET Computação"
+                subtitle="Confira o novo site do PET, e veja também algumas notas que escrevemos sobre o desenvolvimento desse projeto."
+                textButton="Ver Mais"
+            />
         </Banner>
         <Diary>
             <CardDiary>
