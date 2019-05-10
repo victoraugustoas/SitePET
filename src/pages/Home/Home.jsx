@@ -16,6 +16,8 @@ import cartaz_ssd_mobile from '../../assets/imgs/sorteio_ssd_mobile.png'
 import cartaz_minicurso from '../../assets/imgs/cartaz_minicurso.png'
 import cartaz_minicurso_mobile from '../../assets/imgs/logos/minicurso_mobile.png'
 
+import code from '../../assets/imgs/code.jpg'
+
 const url = "https://calendar.google.com/calendar/embed?src=petcomputacao%40icomp.ufam.edu.br&ctz=America%2FBoa_Vista"
 const description = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`
 
@@ -52,10 +54,10 @@ export default props => (
             </CardDiary>
         </Diary>
         <RecentActivities>
-            <CardRecentActivities title="PET OBI"
-                url='/petobi'
-                description={description}
-                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+            <CardRecentActivities title="Novo site do PET Computação"
+                url='/recent_sitepet'
+                description="Confira o novo site do PET, e veja também algumas notas que escrevemos sobre o desenvolvimento desse projeto."
+                urlImg={code}
                 textButton="Ver Mais" />
             <CardRecentActivities title="Computação Desplugada"
                 url='/compdes'
