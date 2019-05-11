@@ -43,8 +43,8 @@ export default props => (
                     <i className="fab fa-facebook fa-3x"></i>
                 </a>
 
-                <a rel="noopener noreferrer" target="_blank" href="/" className="pr-4 icon-social">
-                    <i className="fab fa-whatsapp fa-3x"></i>
+                <a rel="noopener noreferrer" target="_blank" href={"mailto:petcomputacao@icomp.ufam.edu.br"} className="pr-4 icon-social">
+                    <i className="fas fa-envelope fa-3x"></i>
                 </a>
 
                 <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/petcompufam?utm_source=ig_profile_share&igshid=u6pl0vney2d5" className="pr-4 icon-social">

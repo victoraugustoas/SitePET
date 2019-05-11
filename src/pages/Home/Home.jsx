@@ -74,11 +74,6 @@ export default props => (
                 description={'O PET Computação organizou no dia 06/05/2019 o evento chamado IntegraPET, que contou com a participação de vários representantes dos PET’s da UFAM.'}
                 urlImg={integrapet}
                 textButton="Ver Mais" />
-            <CardRecentActivities title="Oficina de Programação"
-                description={description}
-                url="/oficina"
-                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
-                textButton="Ver Mais" />
         </RecentActivities>
         <Footer />
     </React.Fragment>
