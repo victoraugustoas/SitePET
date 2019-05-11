@@ -3,7 +3,6 @@ import './Navbar.css'
 
 import { NavItem, NavItemDropdown } from './NavItem/NavItem'
 import NavDropdown from './NavDropdown/NavDropdown'
-import { Link } from 'react-router-dom'
 
 import logo from '../../assets/imgs/pet_comp_logo.svg'
 
@@ -11,9 +10,9 @@ export default props => (
     <header className="cabecalho" >
         <nav className="navbar navbar-expand-md">
             <div id="logoTop" className="logo">
-                <Link to="/">
+                <a href="/">
                     <img src={logo} alt={'logo'} />
-                </Link>
+                </a>
             </div>
 
             <button className="navbar-toggler icon-menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"

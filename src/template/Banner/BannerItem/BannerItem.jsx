@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './BannerItem.css'
 
 export default class BannerItem extends React.Component {
@@ -34,9 +33,9 @@ export default class BannerItem extends React.Component {
                 <div className="carousel-caption">
                     <h1><strong>{this.props.title}</strong></h1>
                     <p>{this.props.subtitle}</p>
-                    <Link to={`${this.props.url}`}>
+                    <a href={`${this.props.url}`}>
                         <button type="button" className="btn btn-lg">{this.props.textButton}</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         )

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './CardRecentActivities.css'
 
 export default props => {
@@ -9,7 +8,7 @@ export default props => {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
-                <Link to={`${props.url ? props.url: '/'}`} className="btn">{props.textButton}</Link>
+                <a href={`${props.url ? props.url : '/'}`} className="btn">{props.textButton}</a>
             </div>
         </div>
     </div>

@@ -3,18 +3,15 @@ import './Footer.css'
 
 import logo from '../../assets/imgs/pet_comp_logo.svg'
 
-import { Link } from 'react-router-dom'
-
-
 export default props => (
     <footer className="footer container-fluid py-5">
         <div className="row align-items-center">
 
             <div className="col d-flex justify-content-center align-items-center mb-4">
                 <div className="footer-logo">
-                    <Link to="/">
+                    <a href="/">
                         <img src={logo} alt={'logo'} />
-                    </Link>
+                    </a>
                 </div>
             </div>
 
