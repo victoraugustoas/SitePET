@@ -2,10 +2,11 @@ import React from 'react'
 import Navbar from '../../template/Navbar/Navbar';
 import { BannerStatic } from '../../template/Banner/Banner';
 
-import code from '../../assets/imgs/code.jpg'
 import AboutProject from '../../template/AboutProject/AboutProject';
 import Quote from '../../template/Quote/Quote';
 import Footer from '../../template/Footer/Footer';
+
+const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`
 
 export default props => {
     return <React.Fragment>

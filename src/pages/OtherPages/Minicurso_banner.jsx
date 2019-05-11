@@ -4,9 +4,8 @@ import Footer from '../../template/Footer/Footer';
 import { BannerStatic } from '../../template/Banner/Banner';
 import AboutProject from '../../template/AboutProject/AboutProject';
 
-import minicurso from '../../assets/imgs/cartaz_minicurso.png'
-import minicurso_2x from '../../assets/imgs/cartaz_minicurso_2x.png'
-import minicurso_mobile from '../../assets/imgs/logos/minicurso_mobile.png'
+const minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458232/cartaz_minicurso_2x_lqqitm.png`
+const minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500574/minicurso_mobile_tsp5vd.png`
 
 export default props => {
     return <React.Fragment>
@@ -16,7 +15,6 @@ export default props => {
             subtitle="Venha participar do minicurso oferecido pelo PET Computação"
             urlImgs={[
                 { src: minicurso_mobile, size: 768 },
-                { src: minicurso, size: 1920 },
                 { src: minicurso_2x }
             ]} />
         <AboutProject title="Saiba mais sobre o minicurso">

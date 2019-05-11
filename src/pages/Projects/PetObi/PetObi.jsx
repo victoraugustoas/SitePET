@@ -35,19 +35,19 @@ export default props => (
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src={img1} class="d-block w-100" />
+                                <img src={img1} class="d-block w-100" alt='foto' />
                             </div>
                             <div class="carousel-item">
-                                <img src={img2} class="d-block w-100" />
+                                <img src={img2} class="d-block w-100" alt='foto' />
                             </div>
                             <div class="carousel-item">
-                                <img src={img3} class="d-block w-100" />
+                                <img src={img3} class="d-block w-100" alt='foto' />
                             </div>
                             <div class="carousel-item">
-                                <img src={img4} class="d-block w-100" />
+                                <img src={img4} class="d-block w-100" alt='foto' />
                             </div>
                             <div class="carousel-item">
-                                <img src={img5} class="d-block w-100" />
+                                <img src={img5} class="d-block w-100" alt='foto' />
                             </div>
                         </div>
                     </div>

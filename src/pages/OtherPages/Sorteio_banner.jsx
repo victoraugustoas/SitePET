@@ -3,10 +3,10 @@ import Navbar from '../../template/Navbar/Navbar';
 import Footer from '../../template/Footer/Footer';
 import { BannerStatic } from '../../template/Banner/Banner';
 
-import sorteio_mobile from '../../assets/imgs/sorteio_ssd_mobile.png'
-import sorteio from '../../assets/imgs/sorteio_ssd.png'
-import sorteio_2x from '../../assets/imgs/sorteio_ssd_2x.png'
 import AboutProject from '../../template/AboutProject/AboutProject';
+
+const sorteio_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557499536/sorteio_ssd_mobile_xo2wci.png`
+const sorteio_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458260/sorteio_ssd_2x_gz23nb.png`
 
 export default props => <React.Fragment>
     <Navbar />
@@ -15,7 +15,6 @@ export default props => <React.Fragment>
         subtitle="Compre uma rifa e concorra!"
         urlImgs={[
             { src: sorteio_mobile, size: 768 },
-            { src: sorteio, size: 1920 },
             { src: sorteio_2x }
         ]} />
     <AboutProject>
