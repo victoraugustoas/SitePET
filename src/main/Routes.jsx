@@ -17,6 +17,7 @@ import Minicurso from '../pages/Projects/Minicurso/Minicurso'
 import Minicurso_banner from '../pages/OtherPages/Minicurso_banner'
 import Sorteio_banner from '../pages/OtherPages/Sorteio_banner'
 import RecentActivities_Site from '../pages/OtherPages/RecentActivities_Site'
+import RecentActivities_Integrapet from '../pages/OtherPages/RecentActivities_Integrapet'
 
 export default props => (
     <Switch>
@@ -27,6 +28,7 @@ export default props => (
         <Route path="/minicurso_banner" component={Minicurso_banner} />
         <Route path="/sorteio_banner" component={Sorteio_banner} />
         <Route path="/recent_sitepet" component={RecentActivities_Site} />
+        <Route path="/recent_integrapet" component={RecentActivities_Integrapet} />
 
         <Route path="/projects" component={ProjectsMain} />
         <Route path="/petobi" component={PetObi} />

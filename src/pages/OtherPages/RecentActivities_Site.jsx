@@ -66,7 +66,7 @@ export default props => {
                         Outra lição aprendida foi sobre as próprias tecnologias utilizadas, que por se tratar de um projeto um pouco complexo, mostra a nós mesmos a nossa capacidade de resolver problemas utilizando as ferramentas à nossa disposição.
                 </p>
                     <p>
-                        Apesar de estar estar online, não significa que o trabalho acabou, ainda há muitas coisas a serem feitas e muito o'que aprender. Portanto o desenvolvimento irá continuar, para aperfeiçoar ainda mais nossa plataforma.
+                        Apesar de estar estar online, não significa que o trabalho acabou, ainda há muitas coisas a serem feitas e muito o que aprender. Portanto o desenvolvimento irá continuar, para aperfeiçoar ainda mais nossa plataforma.
                 </p>
                 </div>
             </div>

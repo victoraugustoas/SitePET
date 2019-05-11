@@ -17,6 +17,7 @@ const cartaz_minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/uploa
 const cartaz_minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557499934/minicurso_mobile_jgyhju.png`
 
 const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`
+const integrapet = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557539577/IntegraPET_f0flv2.jpg`
 
 const url = "https://calendar.google.com/calendar/embed?src=petcomputacao%40icomp.ufam.edu.br&ctz=America%2FBoa_Vista"
 const description = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`
@@ -68,10 +69,10 @@ export default props => (
                 description="Confira o novo site do PET, e veja também algumas notas que escrevemos sobre o desenvolvimento desse projeto."
                 urlImg={code}
                 textButton="Ver Mais" />
-            <CardRecentActivities title="Computação Desplugada"
-                url='/compdes'
-                description={description}
-                urlImg="http://pet.icomp.ufam.edu.br/img/computacao_desplugada.jpg"
+            <CardRecentActivities title="PET Computação sedia o IntegraPET"
+                url='/recent_integrapet'
+                description={'O PET Computação organizou no dia 06/05/2019 o evento chamado IntegraPET, que contou com a participação de vários representantes dos PET’s da UFAM.'}
+                urlImg={integrapet}
                 textButton="Ver Mais" />
             <CardRecentActivities title="Oficina de Programação"
                 description={description}
