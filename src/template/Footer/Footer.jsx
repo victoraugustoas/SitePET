@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-import logo from '../../assets/imgs/pet_comp_logo.svg'
+const logo = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557458249/pet_comp_logo_gjra5s.svg`
 
 export default props => (
     <footer className="footer container-fluid py-5">
