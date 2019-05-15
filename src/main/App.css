@@ -97,30 +97,30 @@ body {
     font-size: 3rem;
 }
 
-html {
+body {
     font-size: 1rem;
 }
 
 @media (max-width: 576px) {
-    html {
+    body {
         font-size: 0.875rem;
     }
 }
 
 @media (max-width: 768px) {
-    html {
+    body {
         font-size: 1.25rem;
     }
 }
 
 @media (max-width: 992px) {
-    html {
+    body {
         font-size: 1.3rem;
     }
 }
 
 @media (min-width: 993px) {
-    html {
+    body {
         font-size: 1.35rem;
     }
 }
