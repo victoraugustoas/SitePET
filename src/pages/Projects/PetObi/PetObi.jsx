@@ -5,7 +5,8 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
-const pet_obi_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500574/pet_obi_mobile_bs4jmi.png`
+const quality = 25
+const pet_obi_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557500574/pet_obi_mobile_bs4jmi.png`
 const pet_obi_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/pet_obi_2x_ihilqp.png`
 
 const img1 = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557541941/PETOBI4_f7xiqf.jpg`

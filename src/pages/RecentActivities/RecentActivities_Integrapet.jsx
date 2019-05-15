@@ -4,6 +4,7 @@ import AboutProject from '../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../template/Banner/Banner'
 import Footer from '../../template/Footer/Footer'
 
+const quality = 25
 const img = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557539577/IntegraPET_f0flv2.jpg`
 
 export default props => {
@@ -12,6 +13,7 @@ export default props => {
             <Navbar />
             <BannerStatic
                 urlImgs={[
+                    { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557539577/IntegraPET_f0flv2.jpg`, size: 768 },
                     { src: img }
                 ]}
                 title='PET Computação sedia o IntegraPET'

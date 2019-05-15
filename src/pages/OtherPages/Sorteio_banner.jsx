@@ -5,7 +5,8 @@ import { BannerStatic } from '../../template/Banner/Banner';
 
 import AboutProject from '../../template/AboutProject/AboutProject';
 
-const sorteio_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557499536/sorteio_ssd_mobile_xo2wci.png`
+const quality = 25
+const sorteio_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499536/sorteio_ssd_mobile_xo2wci.png`
 const sorteio_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458260/sorteio_ssd_2x_gz23nb.png`
 
 export default props => <React.Fragment>

@@ -7,11 +7,14 @@ import { BannerStatic } from '../../template/Banner/Banner'
 import AboutProject from '../../template/AboutProject/AboutProject'
 import Quote from '../../template/Quote/Quote'
 
+const quality = 25
+
 export default props => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
-            { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557504338/sobre_vdhweq.jpg` }
+            { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557504338/sobre_vdhweq.jpg`, size: 768 },
+            { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557504338/sobre_vdhweq.jpg` }
         ]}
             title="Sobre" subtitle="Saiba mais sobre o PET Computação =D" />
 

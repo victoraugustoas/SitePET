@@ -4,8 +4,9 @@ import Footer from '../../template/Footer/Footer';
 import { BannerStatic } from '../../template/Banner/Banner';
 import AboutProject from '../../template/AboutProject/AboutProject';
 
+const quality = 25
 const minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458232/cartaz_minicurso_2x_lqqitm.png`
-const minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500574/minicurso_mobile_tsp5vd.png`
+const minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557500574/minicurso_mobile_tsp5vd.png`
 
 export default props => {
     return <React.Fragment>

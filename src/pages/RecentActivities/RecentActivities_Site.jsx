@@ -6,6 +6,7 @@ import AboutProject from '../../template/AboutProject/AboutProject';
 import Quote from '../../template/Quote/Quote';
 import Footer from '../../template/Footer/Footer';
 
+const quality = 25
 const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`
 
 export default props => {
@@ -15,6 +16,7 @@ export default props => {
             title="Novo site do PET Computação"
             subtitle="O novo site do PET Computação está online de cara nova"
             urlImgs={[
+                { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557458245/code_jofkpn.jpg`, size: 768 },
                 { src: code }
             ]}
         />

@@ -10,11 +10,13 @@ import Footer from '../../template/Footer/Footer'
 import BannerItem from '../../template/Banner/BannerItem/BannerItem'
 import CardDiary, { Card } from '../../template/Diary/CardDiary'
 
+const quality = 25
+
 const cartaz_ssd_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458260/sorteio_ssd_2x_gz23nb.png`
-const cartaz_ssd_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557499536/sorteio_ssd_mobile_xo2wci.png`
+const cartaz_ssd_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499536/sorteio_ssd_mobile_xo2wci.png`
 
 const cartaz_minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458232/cartaz_minicurso_2x_lqqitm.png`
-const cartaz_minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557499934/minicurso_mobile_jgyhju.png`
+const cartaz_minicurso_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499934/minicurso_mobile_jgyhju.png`
 
 const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`
 const integrapet = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557539577/IntegraPET_f0flv2.jpg`
@@ -44,6 +46,7 @@ export default props => (
                 textButton="Ver Mais" />
             <BannerItem
                 urlImgs={[
+                    { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557458245/code_jofkpn.jpg`, size: 768 },
                     { src: code }
                 ]}
                 url='/recent_sitepet'

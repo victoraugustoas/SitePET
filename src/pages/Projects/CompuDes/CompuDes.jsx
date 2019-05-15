@@ -5,7 +5,8 @@ import Footer from '../../../template/Footer/Footer'
 import AboutProject from '../../../template/AboutProject/AboutProject'
 import { BannerStatic } from '../../../template/Banner/Banner'
 
-const comp_desp_mobile = 'https://res.cloudinary.com/cloudpetimgs/image/upload/v1557500573/comp_desp_mobile_lnni1o.png'
+const quality = 25
+const comp_desp_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557500573/comp_desp_mobile_lnni1o.png`
 const comp_desp_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/comp_desp_2x_dpt5nj.png`
 
 export default props => (

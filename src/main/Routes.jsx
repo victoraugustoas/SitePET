@@ -16,8 +16,8 @@ import Minicurso from '../pages/Projects/Minicurso/Minicurso'
 // outras páginas
 import Minicurso_banner from '../pages/OtherPages/Minicurso_banner'
 import Sorteio_banner from '../pages/OtherPages/Sorteio_banner'
-import RecentActivities_Site from '../pages/OtherPages/RecentActivities_Site'
-import RecentActivities_Integrapet from '../pages/OtherPages/RecentActivities_Integrapet'
+import RecentActivities_Site from '../pages/RecentActivities/RecentActivities_Site'
+import RecentActivities_Integrapet from '../pages/RecentActivities/RecentActivities_Integrapet'
 
 export default props => (
     <Switch>
