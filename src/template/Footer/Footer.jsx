@@ -17,38 +17,40 @@ export default props => (
 
             <div className="col-12 col-sm-6 col-md-3 mb-4">
                 <h4>Onde ficamos?</h4>
-                <p>No 2° andar do bloco CPD, após o ICOMP (Instituto de Computação) Se quiser fazer uma visita, nos encontre na última sala do bloco do CPD.</p>
+                <p>No 2° andar do bloco CPD, após o ICOMP (Instituto de Computação).</p>
+                <p>
+                    Se você quiser fazer uma visita, nos encontre na última sala do bloco do CPD. <i className="fas fa-smile-wink"></i>
+                </p>
             </div>
 
             <div className="col-12 col-sm-6 col-md-3 mb-4">
                 <h4>Links úteis</h4>
-                <ul>
-                    <li>
-                        <a rel="noopener noreferrer" target="_blank" href="http://icomp.ufam.edu.br/site/">ICOMP</a>
-                    </li>
-                    <li>
-                        <a rel="noopener noreferrer" target="_blank" href="https://ufam.edu.br/">UFAM</a>
-                    </li>
-                </ul>
+                <div className='links'>
+                    <a rel="noopener noreferrer" target="_blank" href="http://icomp.ufam.edu.br/site/">ICOMP</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://ufam.edu.br/">UFAM</a>
+                </div>
             </div>
 
             <div className="col-12 col-sm-6 col-md-3">
                 <h4>Fale com a gente!</h4>
                 <p>Nossas redes sociais</p>
 
-                <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/" className="pr-4 icon-social">
-                    <i className="fab fa-facebook fa-3x"></i>
-                </a>
+                <div className='d-flex justify-content-around'>
+                    <a className="icon-social" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petcomputacaoufam/">
+                        <i className="fab fa-facebook fa-2x"></i>
+                    </a>
 
-                <a rel="noopener noreferrer" target="_blank" href={"mailto:petcomputacao@icomp.ufam.edu.br"} className="pr-4 icon-social">
-                    <i className="fas fa-envelope fa-3x"></i>
-                </a>
+                    <a className="icon-social" rel="noopener noreferrer" target="_blank" href={"mailto:petcomputacao@icomp.ufam.edu.br"}>
+                        <i className="fas fa-envelope fa-2x"></i>
+                    </a>
 
-                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/petcompufam?utm_source=ig_profile_share&igshid=u6pl0vney2d5" className="pr-4 icon-social">
-                    <i className="fab fa-instagram fa-3x"></i>
-                </a>
+                    <a className="icon-social" rel="noopener noreferrer" target="_blank" href="https://instagram.com/petcompufam?utm_source=ig_profile_share&igshid=u6pl0vney2d5">
+                        <i className="fab fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+
             </div>
 
         </div>
-    </footer>
+    </footer >
 )

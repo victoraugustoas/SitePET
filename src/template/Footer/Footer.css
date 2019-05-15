@@ -18,6 +18,10 @@ footer a:hover {
     color: var(--color-text-footer);
 }
 
+footer .links a{
+    display: block;
+}
+
 .icon-social:hover {
     color: var(--color-text-icon-social-hover);
     transition: 500ms;
