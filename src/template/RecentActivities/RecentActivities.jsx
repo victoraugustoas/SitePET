@@ -7,7 +7,7 @@ export default props => (
             <h4 className="ml-3 pb-4">Atividades Recentes</h4>
         </div>
 
-        <div className="row pb-3">
+        <div className="row align-items-center pb-3">
             {props.children}
         </div>
     </section>

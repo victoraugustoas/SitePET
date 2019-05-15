@@ -47,6 +47,7 @@ body {
     /*---- Part Atividades recentes---*/
     /* RecentsActivities colors */
     --color-text-title-recent-activities: #0550ac;
+    --color-text-card-title-recent-activities: #fff;
     /* CardRecentsActivities colors */
     --bg-card-recent-activities: #4E9FFF;
     --bg-btn-card-recent-activities: #2e8b57;
