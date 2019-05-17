@@ -1,6 +1,5 @@
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
-import 'animate.css/animate.min.css'
 
 import React from 'react'
 import './App.css'

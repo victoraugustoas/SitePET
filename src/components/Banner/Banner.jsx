@@ -22,6 +22,9 @@ export default props => (
     </section>
 )
 
+/**
+ * Banner que ocupa 100% do tamanho da tela, com uma imagem de fundo e uma mensagem
+*/
 export class BannerStatic extends React.Component {
     constructor(props) {
         super(props)

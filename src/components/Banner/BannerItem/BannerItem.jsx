@@ -1,6 +1,10 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './BannerItem.css'
 
+/**
+ * Item de banner dinâmico, que mostra as imagens de acordo com o tamanho da imagem
+*/
 export default class BannerItem extends React.Component {
 
     constructor(props) {
@@ -24,6 +28,20 @@ export default class BannerItem extends React.Component {
                 this.bgImgs.current.style.backgroundPosition = `${this.props.urlImgs[i].position}`
             }
         }
+    }
+
+    static propTypes = {
+        active: PropTypes.bool,
+        title: PropTypes.string,
+        subtitle: PropTypes.string,
+        url: PropTypes.string,
+        textButton: PropTypes.string
+    }
+
+    static defaultProps = {
+        active: false,
+        url: '/',
+        textButton: 'Ver Mais'
     }
 
     render() {
