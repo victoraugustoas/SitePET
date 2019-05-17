@@ -1,10 +1,10 @@
 import React from 'react'
 import './ProjectsMain.css'
 
-import Navbar from '../../template/Navbar/Navbar'
-import Footer from '../../template/Footer/Footer'
-import ProjectCard from '../../template/ProjectCard/ProjectCard'
-import Animate from '../../template/Animate/Animate'
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
+import Animate from '../../components/Animate/Animate'
 
 const pet_obi = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/pet_obi_2x_ihilqp.png`
 const minicurso = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/minicurso_2x_mq2ftn.png`

@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../../template/Navbar/Navbar';
-import { BannerStatic } from '../../template/Banner/Banner';
+import Navbar from '../../components/Navbar/Navbar';
+import { BannerStatic } from '../../components/Banner/Banner';
 
-import AboutProject from '../../template/AboutProject/AboutProject';
-import Quote from '../../template/Quote/Quote';
-import Footer from '../../template/Footer/Footer';
+import AboutProject from '../../components/AboutProject/AboutProject';
+import Quote from '../../components/Quote/Quote';
+import Footer from '../../components/Footer/Footer';
 
 const quality = 25
 const code = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458245/code_jofkpn.jpg`

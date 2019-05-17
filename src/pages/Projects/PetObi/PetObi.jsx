@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Navbar from '../../../template/Navbar/Navbar'
-import Footer from '../../../template/Footer/Footer'
-import AboutProject from '../../../template/AboutProject/AboutProject'
-import { BannerStatic } from '../../../template/Banner/Banner'
+import Navbar from '../../../components/Navbar/Navbar'
+import Footer from '../../../components/Footer/Footer'
+import AboutProject from '../../../components/AboutProject/AboutProject'
+import { BannerStatic } from '../../../components/Banner/Banner'
 
 const quality = 25
 const pet_obi_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557500574/pet_obi_mobile_bs4jmi.png`

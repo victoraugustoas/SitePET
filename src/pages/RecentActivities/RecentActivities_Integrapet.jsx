@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../../template/Navbar/Navbar'
-import AboutProject from '../../template/AboutProject/AboutProject'
-import { BannerStatic } from '../../template/Banner/Banner'
-import Footer from '../../template/Footer/Footer'
+import Navbar from '../../components/Navbar/Navbar'
+import AboutProject from '../../components/AboutProject/AboutProject'
+import { BannerStatic } from '../../components/Banner/Banner'
+import Footer from '../../components/Footer/Footer'
 
 const quality = 25
 const img = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557539577/IntegraPET_f0flv2.jpg`

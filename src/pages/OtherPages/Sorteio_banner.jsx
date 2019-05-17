@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../../template/Navbar/Navbar';
-import Footer from '../../template/Footer/Footer';
-import { BannerStatic } from '../../template/Banner/Banner';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import { BannerStatic } from '../../components/Banner/Banner';
 
-import AboutProject from '../../template/AboutProject/AboutProject';
+import AboutProject from '../../components/AboutProject/AboutProject';
 
 const quality = 25
 const sorteio_mobile = `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557499536/sorteio_ssd_mobile_xo2wci.png`

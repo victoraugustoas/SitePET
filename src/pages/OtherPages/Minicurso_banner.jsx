@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../../template/Navbar/Navbar';
-import Footer from '../../template/Footer/Footer';
-import { BannerStatic } from '../../template/Banner/Banner';
-import AboutProject from '../../template/AboutProject/AboutProject';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import { BannerStatic } from '../../components/Banner/Banner';
+import AboutProject from '../../components/AboutProject/AboutProject';
 
 const quality = 25
 const minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557458232/cartaz_minicurso_2x_lqqitm.png`

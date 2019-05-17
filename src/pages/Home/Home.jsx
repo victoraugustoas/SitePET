@@ -1,14 +1,14 @@
 import React from 'react'
 import './Home.css'
 
-import Navbar from '../../template/Navbar/Navbar'
-import Diary from '../../template/Diary/Diary'
-import RecentActivities from '../../template/RecentActivities/RecentActivities'
-import CardRecentActivities from '../../template/RecentActivities/CardRecentActivities'
-import Banner from '../../template/Banner/Banner'
-import Footer from '../../template/Footer/Footer'
-import BannerItem from '../../template/Banner/BannerItem/BannerItem'
-import CardDiary, { Card } from '../../template/Diary/CardDiary'
+import Navbar from '../../components/Navbar/Navbar'
+import Diary from '../../components/Diary/Diary'
+import RecentActivities from '../../components/RecentActivities/RecentActivities'
+import CardRecentActivities from '../../components/RecentActivities/CardRecentActivities'
+import Banner from '../../components/Banner/Banner'
+import Footer from '../../components/Footer/Footer'
+import BannerItem from '../../components/Banner/BannerItem/BannerItem'
+import CardDiary, { Card } from '../../components/Diary/CardDiary'
 
 const quality = 25
 
@@ -33,8 +33,7 @@ export default props => (
             ]}
                 url='/minicurso_banner'
                 subtitle="Minicurso de C com foco em Algoritmos e Estruturas de dados I"
-                title="Minicurso de C"
-                textButton="Ver Mais" />
+                title="Minicurso de C" />
 
             <BannerItem urlImgs={[
                 { src: cartaz_ssd_mobile, size: 768 },
@@ -42,8 +41,7 @@ export default props => (
             ]}
                 url='/sorteio_banner'
                 subtitle="O dinheiro arrecadado será utilizado em projetos do PET"
-                title="Sorteio de SSD 240GB"
-                textButton="Ver Mais" />
+                title="Sorteio de SSD 240GB" />
             <BannerItem
                 urlImgs={[
                     { src: `https://res.cloudinary.com/cloudpetimgs/image/upload/q_${quality}/v1557458245/code_jofkpn.jpg`, size: 768 },
@@ -52,7 +50,6 @@ export default props => (
                 url='/recent_sitepet'
                 title="Novo site do PET Computação"
                 subtitle="Confira o novo site do PET, e veja também algumas notas que escrevemos sobre o desenvolvimento desse projeto."
-                textButton="Ver Mais"
             />
         </Banner>
         <Diary>
