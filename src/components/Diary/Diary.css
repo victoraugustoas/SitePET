@@ -1,0 +1,7 @@
+.diary {
+    background-color: var(--bg-diary);
+}
+
+.diary h4 {
+    color: var(--color-text-title-diary);
+}

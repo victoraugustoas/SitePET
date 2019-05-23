@@ -1,0 +1,24 @@
+.dropdown-menu {
+    background-color: var(--bg-dropdown-menu);
+}
+
+.menu .btn {
+    background-color: var(--bg-btn-menu);
+    color: var(--color-text-btn-menu);
+    box-shadow: none;
+    font-size: 100%;
+}
+
+.menu .btn:hover{
+    background-color: var(--bg-btn-menu-hover);
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin: 0;
+    font-size: 100%;
+}
+
+.dropdown-item:focus .btn{
+    background-color: var(--bg-btn-menu-hover);
+}

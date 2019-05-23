@@ -1,0 +1,3 @@
+module.exports = {
+    exampleMode: 'expand'
+}

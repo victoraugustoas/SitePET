@@ -1,0 +1,18 @@
+.img-team {
+    /* height: 15.6rem; */
+    width: 70%;
+}
+
+.email-team {
+    color: var(--color-text-email-team);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.title-name-team {
+    color: var(--color-title-name-team);
+}
+
+.email-team:hover {
+    color: var(--color-text-email-team-hover);
+}

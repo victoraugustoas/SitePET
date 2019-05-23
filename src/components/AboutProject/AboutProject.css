@@ -1,0 +1,12 @@
+.text-about {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.quote {
+    color: var(--color-text-quote);
+}
+
+.about blockquote p {
+    font-style: italic;
+}

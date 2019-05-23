@@ -1,0 +1,24 @@
+.cabecalho {
+    background-color: var(--bg-menu);
+    border-bottom: var(--bg-border-menu) solid 5px;
+
+    /* Safari */
+    position: -webkit-sticky;
+
+    /*usado para se sobrepor aos demais componentes*/
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.icon-menu {
+    color: var(--color-icon-menu);
+}

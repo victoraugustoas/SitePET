@@ -1,0 +1,28 @@
+footer {
+    text-align: center;
+    background-color: var(--bg-footer);
+    color: var(--color-text-footer);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.footer-logo {
+    width: 70%;
+}
+
+footer a,
+footer a:hover {
+    text-decoration: none;
+    color: var(--color-text-footer);
+}
+
+footer .links a{
+    display: block;
+}
+
+.icon-social:hover {
+    color: var(--color-text-icon-social-hover);
+    transition: 500ms;
+}
