@@ -3,11 +3,10 @@ import './TeamItem.css'
 
 export default props => (
     <div className="d-inline-flex flex-column align-items-center shadow-lg p-3 mb-5 bg-white rounded">
-        
+
         <img src={props.urlImg} alt={props.altImg} className="img-team border" />
-        
         <figcaption className="figure-caption">{props.name}</figcaption>
-    
+        
         <figcaption className="figure-caption1">
         <a href={`mailto:${props.email}`} className="email-team">
            {props.email}
