@@ -3,17 +3,12 @@ import './Navbar.css'
 
 import { NavItem, NavItemDropdown } from './NavItem/NavItem'
 import NavDropdown from './NavDropdown/NavDropdown'
-
-const logo = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557458249/pet_comp_logo_gjra5s.svg`
+import Logo from '../Logo'
 
 export default props => (
     <header className="cabecalho" >
         <nav className="navbar navbar-expand-md">
-            <div id="logoTop" className="logo">
-                <a href="/">
-                    <img src={logo} alt={'logo'} />
-                </a>
-            </div>
+            <Logo />
 
             <button className="navbar-toggler icon-menu" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
