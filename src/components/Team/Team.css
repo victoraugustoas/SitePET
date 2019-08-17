@@ -2,6 +2,11 @@
     color: var(--color-title-team);
 }
 
+.background-yellow{
+    background: #FFD037 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 
 .text-about{
     top: 710px;
