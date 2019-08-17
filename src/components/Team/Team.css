@@ -3,14 +3,16 @@
 }
 
 .background-yellow{
-    background: #FFD037 0% 0% no-repeat padding-box;
+    background: linear-gradient(132deg,#FFD037, white);
     opacity: 1;
 }
 
 
 .text-about{
     top: 710px;
-    left: 449px;
+    margin-left: 350px;
+    margin-right: 340px;
+    margin-bottom: 50px;
     width: 1023px;
 
     text-align: left;
