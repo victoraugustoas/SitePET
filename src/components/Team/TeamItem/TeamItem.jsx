@@ -2,8 +2,9 @@ import React from 'react';
 import './TeamItem.css'
 
 export default props => (
-    <div className="d-flex flex-column align-items-center">
-        <img src={props.urlImg} alt={props.altImg} className="img-team" />
+    <div className="d-inline-flex flex-column align-items-center shadow-lg p-3 mb-5 bg-white rounded">
+        
+        <img src={props.urlImg} alt={props.altImg} className="img-team border" />
         
         <figcaption className="figure-caption">{props.name}</figcaption>
     
@@ -12,7 +13,7 @@ export default props => (
            {props.email}
         </a>
         </figcaption>
-
+        
     </div>
 )
 

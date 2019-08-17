@@ -47,7 +47,7 @@ export default props => (
             </div>
 
             <div className="row">
-                <div className="col-12 col-sm-5 col-md-4 mt-5">
+                <div className="col-12 col-sm-5 col-md-4 mt-5 ">
                     <TeamItem urlImg={imgTutor} altImg="Raimundo" name="Raimundo Barreto" email="xbx@icomp.ufam.edu.br" />
                 </div>
                 
