@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Navbar from '../../../components/Navbar/Navbar'
-import Footer from '../../../components/Footer/Footer'
-import AboutProject from '../../../components/AboutProject/AboutProject'
+import { Navbar } from '../../../components/Navbar'
+import { Footer } from '../../../components/Footer'
+import { AboutProject } from '../../../components/AboutProject'
 import { BannerStatic } from '../../../components/Banner/Banner'
 
 const quality = 25

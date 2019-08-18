@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
-import { BannerStatic } from '../../components/Banner/Banner';
+import { Navbar } from '../../components/Navbar';
+import { Footer } from '../../components/Footer';
+import { BannerStatic } from '../../components/Banner';
 
 import AboutProject from '../../components/AboutProject/AboutProject';
 

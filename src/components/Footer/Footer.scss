@@ -1,7 +1,9 @@
+@import '../../main/variables.scss';
+
 footer {
 	text-align: center;
-	background-color: var(--bg-footer);
-	color: var(--color-text-footer);
+	background-color: $--bg-footer;
+	color: $--color-text-footer;
 }
 
 footer ul li {
@@ -15,7 +17,7 @@ footer ul li {
 footer a,
 footer a:hover {
 	text-decoration: none;
-	color: var(--color-text-footer);
+	color: $--color-text-footer;
 }
 
 footer .grid-container {
@@ -34,10 +36,10 @@ footer .grid-container .right {
 }
 
 .icon-social:hover {
-	color: var(--color-text-icon-social-hover);
+	color: $--color-text-icon-social-hover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $--v-md) {
 	footer .grid-container {
 		display: flex;
 	}

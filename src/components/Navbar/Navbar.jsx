@@ -1,9 +1,9 @@
 import React from 'react'
-import './Navbar.css'
+import './Navbar.scss'
 
 import { NavItem, NavItemDropdown } from './NavItem/NavItem'
 import NavDropdown from './NavDropdown/NavDropdown'
-import Logo from '../Logo'
+import { Logo } from '../Logo'
 
 export default props => (
     <header className="cabecalho" >

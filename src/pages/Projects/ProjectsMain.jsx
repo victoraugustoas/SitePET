@@ -1,10 +1,10 @@
 import React from 'react'
-import './ProjectsMain.css'
+import './ProjectsMain.scss'
 
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import ProjectCard from '../../components/ProjectCard/ProjectCard'
-import Animate from '../../components/Animate/Animate'
+import { Navbar } from '../../components/Navbar'
+import { Footer } from '../../components/Footer'
+import { ProjectCard } from '../../components/ProjectCard'
+import { Animate } from '../../components/Animate'
 
 const pet_obi = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/pet_obi_2x_ihilqp.png`
 const minicurso = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/minicurso_2x_mq2ftn.png`
@@ -13,10 +13,10 @@ const comp_desp = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,
 export default props => (
     <React.Fragment>
         <Navbar />
-        <div className="container-fluid">
+        <div className="project-main container-fluid">
             <div className="row mt-5 pb-5">
                 <div className="col-12 d-flex justify-content-center">
-                    <h1 className="text-center">Projetos do PET Computação</h1>
+                    <h1 className="text-center"><strong>Nossos Projetos</strong></h1>
                 </div>
             </div>
 

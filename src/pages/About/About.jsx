@@ -1,11 +1,11 @@
 import React from 'react'
-import './About.css'
+import './About.scss'
 
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import { BannerStatic } from '../../components/Banner/Banner'
-import AboutProject from '../../components/AboutProject/AboutProject'
-import Quote from '../../components/Quote/Quote'
+import { Navbar } from '../../components/Navbar'
+import { Footer } from '../../components/Footer'
+import { BannerStatic } from '../../components/Banner'
+import { AboutProject } from '../../components/AboutProject'
+import { Quote } from '../../components/Quote'
 
 const quality = 25
 

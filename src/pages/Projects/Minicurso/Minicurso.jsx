@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Navbar from '../../../components/Navbar/Navbar'
-import Footer from '../../../components/Footer/Footer'
-import AboutProject from '../../../components/AboutProject/AboutProject'
-import { BannerStatic } from '../../../components/Banner/Banner'
+import { Navbar } from '../../../components/Navbar'
+import { Footer } from '../../../components/Footer'
+import { AboutProject } from '../../../components/AboutProject'
+import { BannerStatic } from '../../../components/Banner'
 
 const quality = 25
 const minicurso_2x = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557500574/minicurso_2x_mq2ftn.png`

@@ -1,0 +1,33 @@
+@import '../../../main/variables.scss';
+
+.img {
+	height: calc(100vh - $--height-menu);
+}
+
+.carousel-caption {
+	position: absolute;
+	color: $--color-text-caption-banner;
+	font-family: 'Prompt', sans-serif;
+	font-style: italic;
+	width: 100%;
+	background-color: $--bg-caption-banner;
+	right: 0;
+	left: 0;
+	transition: 500ms;
+}
+
+.carousel-caption:hover {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.slide .btn {
+	background-color: $--bg-btn-banner;
+	color: $--color-text-btn-banner;
+}
+
+.slide .btn:hover {
+	/*background-color: $--bg-btn-banner-hover;*/
+	background-color: $--bg-card-diary-hover;
+	color: $--color-text-btn-banner;
+}

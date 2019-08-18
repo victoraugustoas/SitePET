@@ -1,0 +1,28 @@
+@import '../../main/variables.scss';
+
+.card-recent-activities {
+	border-radius: 0.625rem;
+	width: 18rem;
+	min-width: 18rem;
+	background-color: $--bg-card-recent-activities;
+	color: $--color-text-card-recent-activities;
+}
+
+.card-recent-activities .card-title {
+	color: $--color-text-card-title-recent-activities;
+}
+
+#img-top-card-recent-activities {
+	border-top-right-radius: 0.625rem;
+	border-top-left-radius: 0.625rem;
+}
+
+.card-recent-activities a {
+	color: $--color-text-btn-recent-activities;
+	background-color: $--bg-btn-card-recent-activities;
+}
+
+.card-recent-activities a:hover {
+	color: $--color-text-btn-recent-activities;
+	background-color: $--bg-btn-card-recent-activities-hover;
+}

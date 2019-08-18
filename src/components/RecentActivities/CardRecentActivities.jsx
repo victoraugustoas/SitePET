@@ -1,5 +1,5 @@
 import React from 'react'
-import './CardRecentActivities.css'
+import './CardRecentActivities.scss'
 
 export default props => {
     let card = <div className="col d-flex justify-content-center">

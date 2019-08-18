@@ -1,0 +1,32 @@
+@import '../../main/variables.scss';
+
+/* =========== Centraliza o texto =========== */
+
+.banner {
+	position: relative;
+}
+
+.text-banner {
+	background-color: $--bg-text-banner;
+
+	position: absolute;
+	left: 0;
+	width: 50%;
+	top: 50%;
+	text-align: center;
+}
+
+/* =========== Centraliza o texto =========== */
+
+.text-banner h1,
+.text-banner h4 {
+	color: $--color-text-banner;
+}
+
+.background-banner-static {
+	height: calc(100vh - #{$--height-menu});
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

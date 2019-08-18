@@ -1,0 +1,30 @@
+@import '../../../main/variables.scss';
+
+.menu li a {
+	color: $--color-text-btn-menu;
+	text-decoration: none;
+}
+
+.menu li {
+	transition: 500ms;
+}
+
+.menu .active {
+	background-color: $--bg-btn-menu-hover;
+	border-radius: 5px;
+}
+
+.menu li:hover {
+	color: $--color-text-btn-menu;
+	text-decoration: none;
+	background-color: $--bg-btn-menu-hover;
+	border-radius: 5px;
+}
+
+.menu div {
+	margin-right: 15px;
+}
+
+.menu li a {
+	padding-right: 5px;
+}

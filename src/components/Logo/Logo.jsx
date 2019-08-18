@@ -1,5 +1,5 @@
 import React from 'react'
-import './Logo.css'
+import './Logo.scss'
 
 const logo = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557458249/pet_comp_logo_gjra5s.svg`
 

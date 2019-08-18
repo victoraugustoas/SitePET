@@ -1,11 +1,11 @@
 import React from 'react'
-import './NotFound.css'
+import './NotFound.scss'
 
-import NavBar from '../../components/Navbar/Navbar'
+import { Navbar } from '../../components/Navbar'
 
 export default props => (
     <React.Fragment>
-        <NavBar />
+        <Navbar />
         <div>
             <div className="background-construction"></div>
             <div className="not-found">

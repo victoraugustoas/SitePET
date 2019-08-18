@@ -1,7 +1,5 @@
 import React from 'react'
-
-import '../NavItem/NavItem.css'
-import './NavDropdown.css'
+import './NavDropdown.scss'
 
 export default props => {
     let navItemDropdown = <div className="dropdown">

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './BannerItem.css'
+import './BannerItem.scss'
 
 /**
  * Item de banner dinâmico, que mostra as imagens de acordo com o tamanho da imagem

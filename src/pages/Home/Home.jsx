@@ -1,14 +1,12 @@
 import React from 'react'
-import './Home.css'
+import './Home.scss'
 
-import Navbar from '../../components/Navbar/Navbar'
-import Diary from '../../components/Diary/Diary'
-import RecentActivities from '../../components/RecentActivities/RecentActivities'
-import CardRecentActivities from '../../components/RecentActivities/CardRecentActivities'
-import Banner from '../../components/Banner/Banner'
-import Footer from '../../components/Footer/Footer'
-import BannerItem from '../../components/Banner/BannerItem/BannerItem'
-import CardDiary, { Card } from '../../components/Diary/CardDiary'
+import { Navbar } from '../../components/Navbar'
+import { CardDiary, Diary } from '../../components/Diary'
+import { CardRecentActivities, RecentActivities } from '../../components/RecentActivities'
+import { Banner, BannerItem } from '../../components/Banner'
+import { Footer } from '../../components/Footer'
+import { Card } from '../../components/Diary/CardDiary'
 
 const quality = 25
 

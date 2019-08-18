@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 
 import React from 'react'
-import './App.css'
+import './App.scss'
 
 // Rotas
 import { BrowserRouter } from 'react-router-dom'

@@ -1,5 +1,5 @@
 import React from 'react'
-import './RecentActivities.css'
+import './RecentActivities.scss'
 
 export default props => (
     <section className="recent-activities container-fluid p-5">

@@ -1,6 +1,8 @@
+@import '../../main/variables.scss';
+
 .cabecalho {
-	background-color: var(--bg-menu);
-	border-bottom: var(--bg-border-menu) solid 5px;
+	background-color: $--bg-menu;
+	border-bottom: $--bg-border-menu solid 5px;
 
 	/* Safari */
 	position: -webkit-sticky;
@@ -12,5 +14,5 @@
 }
 
 .icon-menu {
-	color: var(--color-icon-menu);
+	color: $--color-icon-menu;
 }

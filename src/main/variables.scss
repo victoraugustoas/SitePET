@@ -1,0 +1,76 @@
+/* --------------- Estilo de componentes --------------- */
+/*-----Part Menu----*/
+/* navbar colors */
+$--bg-menu: #14487b;
+$--bg-border-menu: #49deb2;
+$--color-icon-menu: #fff;
+/* navbarDropdown colors */
+$--bg-dropdown-menu: #000;
+$--bg-btn-menu: #4e9fff;
+$--bg-btn-menu-hover: #1b5cac;
+$--color-text-btn-menu: #fff;
+/*-------*/
+/*-----Part Slide----*/
+/* Banner colors */
+$--bg-text-banner: #00000080;
+$--bg-caption-banner: #00000080;
+$--color-text-banner: #fff;
+/* BannerItem colors */
+$--color-text-caption-banner: #fff;
+$--bg-caption-banner: #00000080;
+$--bg-btn-banner: #2e8b57;
+$--bg-btn-banner-hover: #1b5cac;
+$--bg-card-diary-hover: #49deb2;
+$--color-text-btn-banner: #fff;
+/*-------*/
+/*------Part Agenda----*/
+/* Diary colors */
+$--bg-diary: #4e9fff;
+$--color-text-title-diary: #fff;
+/* CardDiary colors */
+$--color-text-card-diary: #fff;
+$--bg-card-diary: #2e8b57;
+$--bg-card-diary-hover: #49deb2;
+$--color-text-card-diary-hover: #fff;
+/*-------*/
+/*---- Part Atividades recentes---*/
+/* RecentsActivities colors */
+$--color-text-title-recent-activities: #0550ac;
+$--color-text-card-title-recent-activities: #fff;
+/* CardRecentsActivities colors */
+$--bg-card-recent-activities: #4e9fff;
+$--bg-btn-card-recent-activities: #2e8b57;
+$--bg-btn-card-recent-activities-hover: #1b5cac;
+$--color-text-card-recent-activities: #fff;
+$--color-text-btn-recent-activities: #fff;
+/*-------*/
+/*-----Part Rodape-----*/
+/* Footer colors */
+$--bg-footer: #131d27;
+$--color-text-footer: #fff;
+$--color-text-icon-social-hover: #1b5cac;
+/*-------*/
+/*-----Part Team-----*/
+$--color-title-team: #000;
+/* TeamItem Colors */
+$--color-title-name-team: #49deb2;
+$--color-text-email-team: #4e9fff;
+$--color-text-email-team-hover: #49deb2;
+/*-------*/
+
+/* --------------- Estilos de Páginas --------------- */
+/*-----Part About-----*/
+$--color-text-capitular-letter: #4e9fff;
+$--color-text-quote: #49deb2;
+/*-------*/
+/*-----Part Project Main-----*/
+$--color-text-projectMain: #707070;
+/*-------*/
+
+/* --------------- Dimensões de Dispositivos --------------- */
+/*-----Part Dimensions-----*/
+$--height-menu: 61px;
+$--v-sm: 576px;
+$--v-md: 768px;
+$--v-lg: 992px;
+$--v-xl: 1200px;

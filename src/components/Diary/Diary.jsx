@@ -1,5 +1,5 @@
 import React from 'react'
-import './Diary.css'
+import './Diary.scss'
 
 export default props => (
     <section className="diary container-fluid p-5">

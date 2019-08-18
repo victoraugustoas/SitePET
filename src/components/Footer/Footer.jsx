@@ -1,6 +1,6 @@
 import React from 'react'
-import './Footer.css'
-import Logo from '../Logo'
+import './Footer.scss'
+import { Logo } from '../Logo'
 
 const logo = `https://res.cloudinary.com/cloudpetimgs/image/upload/v1557458249/pet_comp_logo_gjra5s.svg`
 

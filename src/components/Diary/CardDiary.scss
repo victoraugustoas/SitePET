@@ -1,0 +1,28 @@
+@import '../../main/variables.scss';
+
+.card-diary {
+	min-height: 50px;
+	background-color: $--bg-card-diary;
+	border-radius: 10px;
+	width: 100%;
+	color: $--color-text-card-diary;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+
+a.link-diary {
+	text-decoration: none;
+}
+
+.card-diary h4 {
+	margin: 0;
+}
+
+.diary .btn:hover {
+	background-color: $--bg-card-diary-hover;
+	color: $--color-text-card-diary-hover;
+}

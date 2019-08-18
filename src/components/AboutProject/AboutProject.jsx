@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
-import './AboutProject.css'
+import './AboutProject.scss'
 
 // Usado para exibição correta na documentação
-import '../../main/App.css'
+import '../../main/App.scss'
 
 /**
  * Serve para colocar texto de projetos, com um pequeno estilo que padroniza os textos dos projetos.

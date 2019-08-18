@@ -1,0 +1,54 @@
+/* 
+Fontes:
+    Prompt: https://fonts.google.com/?query=Prompt&selection.family=Prompt
+*/
+
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body {
+	font-family: 'Prompt', sans-serif;
+}
+
+/* Classes globais */
+
+.capitular-letter {
+	color: var($--color-text-capitular-letter);
+	float: left;
+	padding: 1rem;
+	font-size: 3rem;
+}
+
+body {
+	font-size: 1rem;
+}
+
+@media (max-width: $--v-sm) {
+	body {
+		font-size: 0.875rem;
+	}
+}
+
+@media (max-width: $--v-md) {
+	body {
+		font-size: 1.25rem;
+	}
+}
+
+@media (max-width: $--v-lg) {
+	body {
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width: 993px) {
+	body {
+		font-size: 1.35rem;
+	}
+}
+
+@media (min-width: $--v-xl) {
+	body {
+		font-size: 1.5rem;
+	}
+}

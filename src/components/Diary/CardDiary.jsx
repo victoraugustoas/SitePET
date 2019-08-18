@@ -1,5 +1,5 @@
 import React from 'react'
-import './CardDiary.css'
+import './CardDiary.scss'
 
 export const Card = (props) => {
     return (

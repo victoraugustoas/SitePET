@@ -1,10 +1,10 @@
 import React from 'react';
 import './Petianos.css'
 
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import { BannerStatic } from '../../components/Banner/Banner'
-import Team from '../../components/Team/Team'
+import { Navbar } from '../../components/Navbar'
+import { Footer } from '../../components/Footer'
+import { BannerStatic } from '../../components/Banner'
+import { Team } from '../../components/Team'
 
 export default props => (
     <React.Fragment>
