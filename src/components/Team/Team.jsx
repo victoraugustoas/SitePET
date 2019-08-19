@@ -33,7 +33,7 @@ export default props => (
 
             <div className="row">
                 <div className="col-12 d-flex justify-content-center text-center">
-                    <h2 className="text-about">
+                    <h2 className="text-team">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a ligula dictum, semper odio et, suscipit sapien. Integer pellentesque commodo massa quis congue. Morbi auctor tortor sit amet euismod maximus. Pellentesque et diam condimentum nisi suscipit fringilla. Maecenas sed quam et enim tempor tristique a sit amet sapien. In condimentum nisl ac justo auctor ullamcorper. Praesent leo augue, convallis eu tortor sit amet, hendrerit rutrum eros. Sed faucibus, dui vel porta tincidunt, mauris dolor varius ligula, non consequat velit leo consequat sapien. Aliquam erat volutpat. Donec pellentesque metus non augue maximus porttitor. Duis id cursus orci. Aenean venenatis tellus arcu, vel sagittis mauris facilisis ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam volutpat ante id commodo ultricies." </h2>
                 </div>
             </div>
