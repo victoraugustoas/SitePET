@@ -8,7 +8,7 @@ export default props => (
         <img src={props.urlImg} alt={props.altImg} className="img-team border" />
         <figcaption className="figure-caption">{props.name}</figcaption>
 
-        <figcaption className="figure-caption1">
+        <figcaption className="figure-caption">
             <a href={`mailto:${props.email}`} className="email-team">
                 {props.email}
             </a>

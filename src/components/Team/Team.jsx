@@ -46,14 +46,13 @@ export default props => (
 
             <div className="background-yellow">
                 <div className="row">
-
-                    <div className="col-12 col-sm-5 col-md-4 mt-5 ">
+                    <div className="col-12 col-sm-4 col-md-4">
                         <TeamItem urlImg={imgTutor} altImg="Raimundo" name="Raimundo Barreto" email="xbx@icomp.ufam.edu.br" />
                     </div>
-                    <div className="col-12 col-sm-5 col-md-4 mt-5">
+                    <div className="col-12 col-sm-4 col-md-4">
                         <TeamItem urlImg={imgAndrey} altImg="Andrey" name="Andrey Souza" email="aos@icomp.ufam.edu.br" />
                     </div>
-                    <div className="col-12 col-sm-5 col-md-4 mt-5">
+                    <div className="col-12 col-sm-4 col-md-4">
                         <TeamItem urlImg={imgBianca} altImg="Bianca" name="Bianca Dias" email="bianca.dias@icomp.ufam.edu.br" />
                     </div>
 
@@ -61,15 +60,15 @@ export default props => (
             </div>
 
             <div className="row">
-                <div className="col-12 col-sm-5 col-md-4 mt-5">
+                <div className="col-12 col-sm-5 col-md-4">
                     <TeamItem urlImg={imgBrenda} altImg="Brenda" name="Brenda Aguiar" email="brenda.aguiar@icomp.ufam.edu.br" />
                 </div>
 
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgEliza} altImg="Eliza" name="Elizamara Almeida" email="elizamara.almeida@icomp.ufam.edu.br" />
                 </div>
 
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgFylype} altImg="Fylype" name="Fylype Wase" email="fwcl@icomp.ufam.edu.br" />
                 </div>
             </div>
@@ -77,29 +76,29 @@ export default props => (
             <div className="background-yellow">
                 <div className="row">
 
-                    <div className="col-12 col-sm-6 col-md-4 mt-5">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgJessica} altImg="Jessica" name="Jessica Moura" email="jessica.brito@icomp.ufam.edu.br" />
                     </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 mt-5">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgJoao} altImg="Joao" name="João Lucas" email="lucas.fernandes@icomp.ufam.edu.br" />
                     </div>
 
-                    <div className="col-12 col-sm-6 col-md-4 mt-5">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgJohn} altImg="John" name="Jhonathan Miranda" email="jsm@icomp.ufam.edu.br" />
                     </div>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgLuis} altImg="Luis" name="Luis Guilherme" email="lgfs@icomp.ufam.edu.br" />
                 </div>
 
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgMardoqueu} altImg="Mardoqueu" name="Mardoqueu Pimentel" email="map@icomp.ufam.edu.br" />
                 </div>
-                <div className="col-12 col-sm-6 col-md-4 mt-5">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgVictor} altImg="Victor" name="Victor Augusto" email="vaas@icomp.ufam.edu.br" />
                 </div>
             </div>
