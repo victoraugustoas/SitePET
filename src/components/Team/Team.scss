@@ -9,6 +9,10 @@
 	opacity: 1;
 }
 
+.capitular-letter{
+	color: black;
+}
+
 .text-team {
 	top: 710px;
 	margin-left: 350px;
@@ -18,9 +22,12 @@
 	font-size: 15pt;
 
 
-	text-align: left;
+	text-align: justify;
 	letter-spacing: 0;
 	color: $--color-text-team-about;
 	opacity: 1;
 }
 
+.text-team p{
+	color: black;
+}

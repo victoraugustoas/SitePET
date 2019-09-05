@@ -7,7 +7,7 @@
 .menu .btn {
 	color: $--color-text-btn-menu;
 	box-shadow: none;
-	font-size: 100%;
+	font-size: 90%;
 }
 
 .menu .btn:hover {
@@ -17,7 +17,7 @@
 .dropdown:hover > .dropdown-menu {
 	display: block;
 	margin: 0;
-	font-size: 100%;
+	font-size: 90%;
 }
 
 .dropdown-item:focus .btn {

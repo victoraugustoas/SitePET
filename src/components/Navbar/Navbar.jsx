@@ -24,10 +24,8 @@ export default props => (
                         <NavItemDropdown url="/petobi" label="PET OBI" />
                         <NavItemDropdown url="/minicurso" label="Minicurso" />
                     </NavDropdown>
-
                     <NavItem url="/petianos" label="Petianos" />
 
-                    <NavItem url="/about" label="Sobre" />
                 </ul>
             </div>
         </nav>

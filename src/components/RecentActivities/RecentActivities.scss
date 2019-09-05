@@ -1,5 +1,15 @@
 @import '../../main/variables.scss';
 
+
+
+.recent-activities{
+	background: linear-gradient(132deg, $--color-team-background-color, white);
+}
 .recent-activities h4 {
 	color: $--color-text-title-recent-activities;
+	text-align: center;
+    font-size: 25pt;
+	margin-left: 600px;
+	padding: 50px;
+	
 }

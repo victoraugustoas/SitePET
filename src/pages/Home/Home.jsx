@@ -50,16 +50,12 @@ export default props => (
                 subtitle="Confira o novo site do PET, e veja também algumas notas que escrevemos sobre o desenvolvimento desse projeto."
             />
         </Banner>
-        <Diary>
-            <CardDiary>
-                <Card url={url} date="06/05" title="Reunião do IntegraPET" />
-                <Card url={url} date="08/05" title="Reunião Mensal do PET" />
-            </CardDiary>
-            <CardDiary>
-                <Card url={url} date="14/05" title="Início do Minicurso de C" />
-                <Card url={url} date="16/05" title="ConectPET" />
-            </CardDiary>
-        </Diary>
+
+        <div className="introduction">
+            <h2>Olá! Somos o PET Computação</h2>
+            <h4>Bem Vindo ao Site! Conheça os nossos projetos e que andamos fazendo ultimamente.</h4>
+        </div>
+        
         <RecentActivities>
             <CardRecentActivities title="Novo site do PET Computação"
                 url='/recent_sitepet'
@@ -72,6 +68,17 @@ export default props => (
                 urlImg={integrapet}
                 textButton="Ver Mais" />
         </RecentActivities>
+
+        <Diary>
+            <CardDiary>
+                <Card url={url} date="06/05" title="Reunião do IntegraPET" />
+                <Card url={url} date="08/05" title="Reunião Mensal do PET" />
+            </CardDiary>
+            <CardDiary>
+                <Card url={url} date="14/05" title="Início do Minicurso de C" />
+                <Card url={url} date="16/05" title="ConectPET" />
+            </CardDiary>
+        </Diary>
         <Footer />
     </React.Fragment>
 )

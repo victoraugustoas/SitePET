@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 // Paginas Principais
 import Home from '../pages/Home/Home'
-import About from '../pages/About/About'
+//import About from '../pages/About/About'
 import NotFound from '../pages/NotFound/NotFound'
 import Petianos from '../pages/Petianos/Petianos'
 
@@ -22,8 +22,7 @@ import RecentActivities_Integrapet from '../pages/RecentActivities/RecentActivit
 export default props => (
     <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-
+       
         {/* outras páginas */}
         <Route path="/minicurso_banner" component={Minicurso_banner} />
         <Route path="/sorteio_banner" component={Sorteio_banner} />

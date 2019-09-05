@@ -1,21 +1,27 @@
 @import '../../main/variables.scss';
 
+
+
 .card-recent-activities {
-	border-radius: 0.625rem;
-	width: 18rem;
-	min-width: 18rem;
-	background-color: $--bg-card-recent-activities;
+	width: 300px;
+	height: 600px;
+	
+	//background-color: $--bg-card-recent-activities;
 	color: $--color-text-card-recent-activities;
+}
+
+
+.card-text{
+	font: Regular 21px/28px Segoe UI;
+	font-size: 20px;
 }
 
 .card-recent-activities .card-title {
 	color: $--color-text-card-title-recent-activities;
+	font: Bold;
+	font-size: 25px;
 }
 
-#img-top-card-recent-activities {
-	border-top-right-radius: 0.625rem;
-	border-top-left-radius: 0.625rem;
-}
 
 .card-recent-activities a {
 	color: $--color-text-btn-recent-activities;
