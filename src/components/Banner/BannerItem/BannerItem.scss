@@ -1,13 +1,13 @@
-@import '../../../main/variables.scss';
+@import "../../../main/variables.scss";
 
 .img {
-	height: calc(100vh - $--height-menu);
+	height: calc(100vh - #{$--height-menu});
 }
 
 .carousel-caption {
 	position: absolute;
 	color: $--color-text-caption-banner;
-	font-family: 'Prompt', sans-serif;
+	font-family: "Prompt", sans-serif;
 	font-style: italic;
 	width: 100%;
 	background-color: $--bg-caption-banner;
