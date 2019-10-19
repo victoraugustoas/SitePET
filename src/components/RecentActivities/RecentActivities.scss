@@ -3,13 +3,11 @@
 
 
 .recent-activities{
-	background: linear-gradient(132deg, $--color-team-background-color, white);
+	//background: linear-gradient(132deg, $--color-team-background-color, white);
+	background-image: linear-gradient(white, $--color-team-background-color);
 }
 .recent-activities h4 {
 	color: $--color-text-title-recent-activities;
 	text-align: center;
     font-size: 25pt;
-	margin-left: 600px;
-	padding: 50px;
-	
 }

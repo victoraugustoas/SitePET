@@ -51,10 +51,6 @@ export default props => (
             />
         </Banner>
 
-        <div className="introduction">
-            <h2>Olá! Somos o PET Computação</h2>
-            <h4>Bem Vindo ao Site! Conheça os nossos projetos e que andamos fazendo ultimamente.</h4>
-        </div>
         
         <RecentActivities>
             <CardRecentActivities title="Novo site do PET Computação"
