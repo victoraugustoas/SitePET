@@ -1,4 +1,5 @@
 import React from 'react'
+import './Minicurso.scss'
 
 import { Navbar } from '../../../components/Navbar'
 import { Footer } from '../../../components/Footer'
@@ -18,18 +19,18 @@ export default props => (
                 { src: minicurso_2x }
             ]}
             title="O que é o Minicurso?" />
-        <AboutProject title="Minicurso">
+        <AboutProject title="Minicursos">
             <section className="row">
                 <div>
-                    <p>
-                        <span className="capitular-letter">T</span>endo como ideia ofertar aulas práticas e teóricas de ensino de programação sobre conteúdos adquiridos ao longo do curso para os discentes do Instituto de Computação (IComp). Os integrantes do PET Computação escolhem um determinado assunto a ser abordado na oficina, durante às aulas ministradas o conteúdo é dividido em aulas teóricas e práticas. Normalmente às primeiras aulas são de introdução teórica do conteúdo abordado na oficina e às últimas aulas para resolução de problemas.
+                    <p className="text-projects">
+                        <span className="capitular-letter">T</span>endo como ideia ofertar aulas práticas e teóricas de ensino de programação sobre conteúdos adquiridos ao longo do curso para os discentes do Instituto de Computação (IComp). Os integrantes do PET Computação escolhem um determinado assunto a ser abordado na oficina, durante as aulas ministradas o conteúdo é dividido em aulas teóricas e práticas. Normalmente às primeiras aulas são de introdução teórica do conteúdo abordado na oficina e às últimas aulas para resolução de problemas.
                     </p>
                 </div>
             </section>
 
             <section className="row">
                 <div>
-                    <p>
+                    <p className="text-projects">
                         Alunos de todos os períodos e cursos ofertados pelo IComp podem participar da oficina de programação.
                     </p>
                 </div>
@@ -37,7 +38,7 @@ export default props => (
 
             <section className="row">
                 <div>
-                    <p>
+                    <p className="text-projects">
                         Como alguns cursos ofertados na Universidade Federal do Amazonas (UFAM) possuem uma ou mais matérias que envolvem programação estamos avaliando ampliar esse projeto para o restante da comunidade acadêmica.
                     </p>
                 </div>

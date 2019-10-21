@@ -1,4 +1,5 @@
 import React from 'react'
+import './PetObi.scss'
 
 import { Navbar } from '../../../components/Navbar'
 import { Footer } from '../../../components/Footer'
@@ -15,7 +16,7 @@ const img3 = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${w
 const img4 = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557542459/PETOBI20182_bhdgun.jpg`
 const img5 = `https://res.cloudinary.com/cloudpetimgs/image/upload/c_scale,w_${window.innerWidth}/v1557542461/PETOBI2018_bwgisk.jpg`
 
-export default props => (
+export default () => (
     <React.Fragment>
         <Navbar />
         <BannerStatic urlImgs={[
@@ -28,7 +29,7 @@ export default props => (
 
             <section className="row">
                 <div className="col-sm">
-                    <p>
+                    <p className = "text-projects" >
                         <span className="capitular-letter">A</span> primeira Olimpíada Brasileira de informática (OBI) foi realizada em 1999 e hoje tem se consolidado como uma atividade extremamente importante no contexto nacional. É uma competição organizada nos moldes das outras olimpíadas científicas brasileiras como matemática, física e astronomia. O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia, no caso, ciência da computação, através de uma atividade que envolve engenhosidade e uma saudável dose de competição.
                     </p>
                 </div>
@@ -57,7 +58,7 @@ export default props => (
 
             <section className="row">
                 <div className="col-sm">
-                    <p>
+                    <p className = "text-projects">
                         A metodologia consiste em gerar material didático sobre raciocínio lógico ensinar aos alunos o material didático e realizar diversos simulados com os alunos.
                     </p>
                 </div>
@@ -65,7 +66,7 @@ export default props => (
 
             <section className="row">
                 <div className="col-sm">
-                    <p>
+                    <p className = "text-projects">
                         O nosso objetivo é preparar um grupo de alunos do ensino fundamental de uma escola a ser escolhida para participarem da olimpíada de brasileira de informática, na modalidade de iniciação níveis 1 e 2, que são para alunos até o nono ano do ensino fundamental. Na modalidade iniciação os alunos concorrem resolvendo problemas de lógica e problemas computacionais, sem o uso de computador, apenas utilizando lápis e papel. O objetivo dessa modalidade é despertar o gosto por problemas computacionais e detectar talentos potenciais para programação.
                     </p>
                 </div>

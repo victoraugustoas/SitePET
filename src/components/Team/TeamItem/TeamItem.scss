@@ -7,12 +7,15 @@
 
 .email-team {
 	color: $--color-text-email-team;
-	font-size: 12pt;
+	font-size: 10pt;
 	text-align: center;
+	word-wrap: break-word;
+	
 }
 
 .title-name-team {
 	color: $--color-title-name-team;
+	
 }
 
 .email-team:hover {

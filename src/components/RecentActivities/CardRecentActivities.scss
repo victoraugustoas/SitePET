@@ -5,7 +5,9 @@
 .card-recent-activities {
 	width: 300px;
 	height: 600px;
-	background-color: $--bg-card-recent-activities;
+	border: 10cm;
+	border-color:$--bg-card-recent-activities ;
+	//ackground-color: $--bg-card-recent-activities;
 	color: $--color-text-card-recent-activities;
 }
 
