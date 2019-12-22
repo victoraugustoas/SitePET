@@ -37,7 +37,7 @@ export default props => (
                     <h2 className="text-team">
                     <section className="row">
                 <p>
-                    <span className="capitular-letter">O</span> PET Computação está ativo desde 2007, e já teve os professores Ruiter Caldas e José Francisco Netto como tutores - sendo o professor Raimundo Barreto nosso atual tutor. Nosso objetivo é promover atividades extracurriculares que complementam a vida acadêmica dos alunos, baseada na tríade universitária: Ensino, Pesquisa e Extensão. Atualmente, o PET tem 11 bolsistas de Ciência da Computação, e um número flexível dos chamados Amigos dode PET - que trabalham voluntariamente nos trabalhos junto dos petianos. As principais atividades de extensão do PET são: a Computação Desplugada, que ensina os fundamentos da computação sem o uso de computador, por meio de dramatizações, quebra-cabeças, truques de mágica e testes; O preparatório OBI, que visa preparar os alunos para participar da olimpíada de informática;  O PET Café, que arrecada dinheiro para fins auxiliares através da venda de alimentos; divulgar nas escolas o projeto e falar a cerca de computação, do curso e, a vida acadêmica. Também são realizadas palestras e minicursos abordando computação dentro da universidade, a fim de promover ajuda aos outros estudantes.
+                    O PET Computação está ativo desde 2007, e já teve os professores Ruiter Caldas e José Francisco Netto como tutores - sendo o professor Raimundo Barreto nosso atual tutor. Nosso objetivo é promover atividades extracurriculares que complementam a vida acadêmica dos alunos, baseada na tríade universitária: Ensino, Pesquisa e Extensão. Atualmente, o PET tem 11 bolsistas de Ciência da Computação, e um número flexível dos chamados Amigos dode PET - que trabalham voluntariamente nos trabalhos junto dos petianos. As principais atividades de extensão do PET são: a Computação Desplugada, que ensina os fundamentos da computação sem o uso de computador, por meio de dramatizações, quebra-cabeças, truques de mágica e testes; O preparatório OBI, que visa preparar os alunos para participar da olimpíada de informática;  O PET Café, que arrecada dinheiro para fins auxiliares através da venda de alimentos; divulgar nas escolas o projeto e falar a cerca de computação, do curso e, a vida acadêmica. Também são realizadas palestras e minicursos abordando computação dentro da universidade, a fim de promover ajuda aos outros estudantes.
                 </p>
             </section>
                     <Quote body="Além de ser um braço do Icomp na comunidade, o PET visa formar o aluno como um cidadão completo,
@@ -69,13 +69,13 @@ export default props => (
 
             <div className="background-yellow">
                 <div className="row">
-                    <div className="col-12 col-sm-4 col-md-4">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgTutor} altImg="Raimundo" name="Raimundo Barreto" email="xbx@icomp.ufam.edu.br" />
                     </div>
-                    <div className="col-12 col-sm-4 col-md-4">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgAndrey} altImg="Andrey" name="Andrey Souza" email="aos@icomp.ufam.edu.br" />
                     </div>
-                    <div className="col-12 col-sm-4 col-md-4">
+                    <div className="col-12 col-sm-6 col-md-4">
                         <TeamItem urlImg={imgBianca} altImg="Bianca" name="Bianca Dias" email="bianca.dias@icomp.ufam.edu.br" />
                     </div>
 
@@ -83,7 +83,7 @@ export default props => (
             </div>
 
             <div className="row">
-                <div className="col-12 col-sm-5 col-md-4">
+                <div className="col-12 col-sm-6 col-md-4">
                     <TeamItem urlImg={imgBrenda} altImg="Brenda" name="Brenda Aguiar" email="brenda.aguiar@icomp.ufam.edu.br" />
                 </div>
 

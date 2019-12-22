@@ -23,7 +23,7 @@ export default props => (
             <section className="row">
                 <div>
                     <p className="text-projects">
-                        <span className="capitular-letter">T</span>endo como ideia ofertar aulas práticas e teóricas de ensino de programação sobre conteúdos adquiridos ao longo do curso para os discentes do Instituto de Computação (IComp). Os integrantes do PET Computação escolhem um determinado assunto a ser abordado na oficina, durante as aulas ministradas o conteúdo é dividido em aulas teóricas e práticas. Normalmente às primeiras aulas são de introdução teórica do conteúdo abordado na oficina e às últimas aulas para resolução de problemas.
+                        Tendo como ideia ofertar aulas práticas e teóricas de ensino de programação sobre conteúdos adquiridos ao longo do curso para os discentes do Instituto de Computação (IComp). Os integrantes do PET Computação escolhem um determinado assunto a ser abordado na oficina, durante as aulas ministradas o conteúdo é dividido em aulas teóricas e práticas. Normalmente às primeiras aulas são de introdução teórica do conteúdo abordado na oficina e às últimas aulas para resolução de problemas.
                     </p>
                 </div>
             </section>

@@ -30,7 +30,7 @@ export default () => (
             <section className="row">
                 <div className="col-sm">
                     <p className = "text-projects" >
-                        <span className="capitular-letter">A</span> primeira Olimpíada Brasileira de informática (OBI) foi realizada em 1999 e hoje tem se consolidado como uma atividade extremamente importante no contexto nacional. É uma competição organizada nos moldes das outras olimpíadas científicas brasileiras como matemática, física e astronomia. O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia, no caso, ciência da computação, através de uma atividade que envolve engenhosidade e uma saudável dose de competição.
+                        A primeira Olimpíada Brasileira de informática (OBI) foi realizada em 1999 e hoje tem se consolidado como uma atividade extremamente importante no contexto nacional. É uma competição organizada nos moldes das outras olimpíadas científicas brasileiras como matemática, física e astronomia. O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia, no caso, ciência da computação, através de uma atividade que envolve engenhosidade e uma saudável dose de competição.
                     </p>
                 </div>
                 <div className="col-sm mb-3">

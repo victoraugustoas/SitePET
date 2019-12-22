@@ -16,16 +16,25 @@
 
 .text-team {
 	top: 700px;
-	padding:5%;
-	width: 3000px;
 	font-size: 15pt;
-
 	text-align: justify;
 	letter-spacing: 0;
 	color: $--color-text-team-about;
 	opacity: 1;
+	width: 100%;
+	padding: 50px;
+	max-width: 1000px;
+
+}
+
+
+.capitular-letter{
+    font-size: 20pt;
 }
 
 .text-team p{
 	color: black;
 }
+
+
+   

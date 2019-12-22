@@ -3,7 +3,8 @@ import './Navbar.scss'
 
 import { NavItem, NavItemDropdown } from './NavItem/NavItem'
 import NavDropdown from './NavDropdown/NavDropdown'
-import { Logo } from '../Logo'
+//import { Logo } from '../Logo/Logo'
+import {Logo} from '/home/brendaum/Área de Trabalho/SitePET/src/components/Logo'
 
 export default props => (
     <header className="cabecalho" >
